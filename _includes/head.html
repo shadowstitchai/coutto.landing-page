@@ -17,13 +17,10 @@
 		<meta name="google-site-verification" content="{{ site.google_site_verification }}">
 	{% endif %}
 
-	{% if site.appstore_link and site.appstore_link != '' %}
-		<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
-	{% else %}
-		<link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32.png' | relative_url }}">
-		<link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16.png' | relative_url }}">
-		<link rel="shortcut icon" href="{{ '/favicon-32.png' | relative_url }}">
-	{% endif %}
+	<link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32.png' | relative_url }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16.png' | relative_url }}">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
 
 	<!-- Smart App Banner -->
 	{% if site.enable_smart_app_banner %}

@@ -1,0 +1,134 @@
+{% assign current_lang = page.lang | default: site.default_lang %}
+<div class="footerIcons">
+
+	<h3 class="footerIconsTitle">
+		{% if current_lang == "en" %}
+			How to Find Us
+		{% else %}
+			如何找到我们
+		{% endif %}
+	</h3>
+
+	{% if site.linkedin_username %}
+		<a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fab fa-linkedin fa-stack-1x"></i>
+			</span>
+		</a>
+	{% endif %}
+
+	{% if site.linkedin_company %}
+		<a href="https://linkedin.com/company/{{ site.linkedin_company }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fab fa-linkedin fa-stack-1x"></i>
+			</span>
+		</a>
+	{% endif %}
+
+	{% if site.facebook_username %}
+		<a href="https://facebook.com/{{ site.facebook_username }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fab fa-facebook fa-stack-1x"></i>
+			</span>
+		</a>
+	{% endif %}
+
+	{% if site.twitter_username %}
+		<a href="https://twitter.com/{{ site.twitter_username }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fab fa-twitter fa-stack-1x"></i>
+			</span>
+		</a>
+	{% endif %}
+
+	{% if site.instagram_username %}
+		<a href="https://instagram.com/{{ site.instagram_username }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fab fa-instagram fa-stack-1x"></i>
+			</span>
+		</a>
+	{% endif %}
+
+	{% if site.mastodon_link %}
+		<a rel="me" href="{{ site.mastodon_link }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fab fa-mastodon fa-stack-1x"></i>
+			</span>
+		</a>
+	{% endif %}
+
+	{% if site.github_username %}
+		<a href="https://github.com/{{ site.github_username }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fab fa-github fa-stack-1x"></i>
+			</span>
+		</a>
+	{% endif %}
+
+	{% if site.email_address %}
+		<a href="mailto:{{ site.email_address }}">
+			<span class="fa-stack fa-1x">
+				<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+				<i class="socialIconTop fas fa-envelope fa-stack-1x"></i>
+			</span>
+		</a>
+	{% endif %}
+
+	{% if site.xiaohongshu_username %}
+		<a href="https://www.xiaohongshu.com/user/profile/{{ site.xiaohongshu_username }}">
+			{% if site.xiaohongshu_logo %}
+				<img src="{{ site.xiaohongshu_logo | relative_url }}" alt="Xiaohongshu" class="socialLogo">
+			{% else %}
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fas fa-heart fa-stack-1x"></i>
+				</span>
+			{% endif %}
+		</a>
+	{% endif %}
+
+	{% if site.bilibili_username %}
+		<a href="https://space.bilibili.com/{{ site.bilibili_username }}">
+			{% if site.bilibili_logo %}
+				<img src="{{ site.bilibili_logo | relative_url }}" alt="Bilibili" class="socialLogo">
+			{% else %}
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fas fa-play-circle fa-stack-1x"></i>
+				</span>
+			{% endif %}
+		</a>
+	{% endif %}
+
+	{% if site.douyin_username %}
+		<a href="https://www.douyin.com/user/{{ site.douyin_username }}">
+			{% if site.douyin_logo %}
+				<img src="{{ site.douyin_logo | relative_url }}" alt="Douyin" class="socialLogo">
+			{% else %}
+				<span class="fa-stack fa-1x">
+					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+					<i class="socialIconTop fas fa-music fa-stack-1x"></i>
+				</span>
+			{% endif %}
+		</a>
+	{% endif %}
+
+	<div class="footerSearchBox">
+		<i class="fas fa-search"></i>
+		<span>
+			{% if current_lang == "en" %}
+				Search {{ site.app_name_en }}
+			{% else %}
+				搜索 {{ site.app_name }}
+			{% endif %}
+		</span>
+	</div>
+
+</div>

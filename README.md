@@ -11,8 +11,8 @@
 
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/your-username/pandapattern.github.io.git
-   cd pandapattern.github.io
+   git clone https://github.com/your-username/couttoapp.github.io.git
+   cd couttoapp.github.io
    ```
 
 2. **安装依赖**

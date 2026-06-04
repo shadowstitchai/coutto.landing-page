@@ -1,0 +1,33 @@
+{% assign current_lang = page.lang | default: site.default_lang %}
+{% if current_lang == "en" %}
+	{% assign faq_list = site.faq_en %}
+	{% assign faq_heading = "FAQ" %}
+{% else %}
+	{% assign faq_list = site.faq %}
+	{% assign faq_heading = "常见问题" %}
+{% endif %}
+
+<div class="faq">
+	<h2 class="faqTitle">{{ faq_heading }}</h2>
+	<div class="faqList">
+		{% for item in faq_list %}
+			{% if item.question and item.answer %}
+			<details class="faqItem">
+				<summary class="faqQuestion">{{ item.question }}</summary>
+				<div class="faqAnswer">
+					{% if item.answer.first %}
+						{% for paragraph in item.answer %}
+							{% assign paragraph_text = paragraph | strip %}
+							{% if paragraph_text != '' %}
+							<p>{{ paragraph_text }}</p>
+							{% endif %}
+						{% endfor %}
+					{% else %}
+						<p>{{ item.answer }}</p>
+					{% endif %}
+				</div>
+			</details>
+			{% endif %}
+		{% endfor %}
+	</div>
+</div>

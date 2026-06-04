@@ -10,13 +10,13 @@ permalink: /en/termsofservice/
 
 **Effective Date:** January 2025
 
-Welcome to Panda Pattern ("we", "our", or "the App"). Please read these Terms of Service carefully before using our mobile application (iOS and Android). By downloading, installing, accessing, or using the App, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
+Welcome to Coutto Pattern ("we", "our", or "the App"). Please read these Terms of Service carefully before using our mobile application (iOS and Android). By downloading, installing, accessing, or using the App, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.
 
 ## 1. Acceptance of Terms
 
 ### 1.1 Scope of Agreement
 
-These Terms of Service ("Terms") constitute a legal agreement between you and Panda Pattern regarding the use of our mobile application and services. These terms apply to all users, including visitors, registered users, and others who use our services.
+These Terms of Service ("Terms") constitute a legal agreement between you and Coutto Pattern regarding the use of our mobile application and services. These terms apply to all users, including visitors, registered users, and others who use our services.
 
 ### 1.2 Age Requirements
 
@@ -33,7 +33,7 @@ By using this App, you represent that:
 
 ### 2.1 Service Content
 
-Panda Pattern is a mobile application designed for fashion designers and tailors, providing the following main features:
+Coutto Pattern is a mobile application designed for fashion designers and tailors, providing the following main features:
 
 **Core Features:**
 - View and manage PDF pattern files
@@ -128,7 +128,7 @@ If you have any questions, comments, or concerns about these Terms of Service, p
 
 **Email:** guolin.mobi@gmail.com
 
-**Website:** https://www.pandapattern.com
+**Website:** https://www.coutto.app
 
 We will respond to your inquiries within a reasonable time.
 
