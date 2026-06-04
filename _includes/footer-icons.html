@@ -107,16 +107,19 @@
 		</a>
 	{% endif %}
 
-	{% if site.douyin_username %}
-		<a href="https://www.douyin.com/user/{{ site.douyin_username }}">
-			{% if site.douyin_logo %}
-				<img src="{{ site.douyin_logo | relative_url }}" alt="Douyin" class="socialLogo">
+	{% if site.douyin_logo %}
+		{% assign douyin_href = site.douyin_link %}
+		{% if douyin_href == nil or douyin_href == '' %}
+			{% if site.douyin_username and site.douyin_username != '' %}
+				{% assign douyin_href = 'https://www.douyin.com/user/' | append: site.douyin_username %}
+			{% elsif current_lang == 'en' %}
+				{% assign douyin_href = 'https://www.douyin.com/search/' | append: site.app_name_en %}
 			{% else %}
-				<span class="fa-stack fa-1x">
-					<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-					<i class="socialIconTop fas fa-music fa-stack-1x"></i>
-				</span>
+				{% assign douyin_href = 'https://www.douyin.com/search/' | append: site.app_name %}
 			{% endif %}
+		{% endif %}
+		<a href="{{ douyin_href }}" target="_blank" rel="noopener noreferrer">
+			<img src="{{ site.douyin_logo | relative_url }}" alt="{% if current_lang == 'en' %}Douyin{% else %}抖音{% endif %}" class="socialLogo">
 		</a>
 	{% endif %}
 

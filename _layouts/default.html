@@ -57,31 +57,41 @@
                         <div class="appDescriptionContainer">
                             <p class ="appDescription">
                                 {% if current_lang == "en" %}
-                                    {{ site.app_description_en }}
+                                    {{ site.app_description_en | newline_to_br }}
                                 {% else %}
-                                    {{ site.app_description }}
+                                    {{ site.app_description | strip | newline_to_br }}
                                 {% endif %}
                             </p>
                         </div>
-                        <div class="downloadButtonsContainer">
-                            {% if site.playstore_link %}
-                                <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="{{ '/assets/playstore.png' | relative_url }}"></a>
-                            {% else %}
-                                <div class="playStoreContainer">
-                                    <img class="playStore" src="{{ '/assets/playstore.png' | relative_url }}">
-                                    <div class="playStoreOverlay">
-                                        {% assign current_lang = page.lang | default: site.default_lang %}
-                                        {% if current_lang == "en" %}
-                                            <div class="playStoreTextSmall">Under Building</div>
-                                            <div class="playStoreTextLarge">Coming Soon</div>
-                                        {% else %}
-                                            <div class="playStoreTextSmall">建设中</div>
-                                            <div class="playStoreTextLarge">即将推出</div>
-                                        {% endif %}
-                                    </div>
+                        <div class="downloadButtonsWrapper">
+                            <div class="downloadButtonsCluster">
+                                <div class="downloadButtonsContainer">
+                                    {% if site.playstore_link %}
+                                        <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="{{ '/assets/playstore.png' | relative_url }}" alt=""></a>
+                                    {% else %}
+                                        <div class="playStoreContainer">
+                                            <img class="playStore" src="{{ '/assets/playstore.png' | relative_url }}" alt="">
+                                        </div>
+                                    {% endif %}
+                                    {% if site.appstore_link %}
+                                        <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="{{ '/assets/appstore.png' | relative_url }}" alt=""></a>
+                                    {% else %}
+                                        <div class="appStoreContainer">
+                                            <img class="appStore" src="{{ '/assets/appstore.png' | relative_url }}" alt="">
+                                        </div>
+                                    {% endif %}
                                 </div>
-                            {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="{{ '/assets/appstore.png' | relative_url }}"></a>
+                                {% unless site.playstore_link and site.appstore_link %}
+                                    {% assign current_lang = page.lang | default: site.default_lang %}
+                                    <p class="downloadButtonsNote">
+                                        {% if current_lang == "en" %}
+                                            Under development, coming soon
+                                        {% else %}
+                                            建设中，即将推出
+                                        {% endif %}
+                                    </p>
+                                {% endunless %}
+                            </div>
                         </div>
                     </div>
                     <div class="heroSocial">

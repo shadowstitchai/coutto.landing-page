@@ -13,7 +13,9 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/app-icon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : 纽扣纸样                                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : 免费（App 内购买）                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : 投影仪裁切、拼接、打印、管理纸样，一个App全搞定。
+app_description                           : |
+  投影仪裁切、拼接、打印、管理存储纸样，
+  一个App全搞定。
 enable_smart_app_banner                   : true                                   # Set to true to show a smart app banner at top of page on mobile devices.
 
 
@@ -35,8 +37,9 @@ xiaohongshu_username                      : 6443d9ee00000000120361de
 xiaohongshu_logo                          : assets/xiaohongshu-logo.png
 bilibili_username                         : 1766825478
 bilibili_logo                             : assets/bilibili-logo.svg
-douyin_username                           :
-douyin_logo                               :
+douyin_username                           :                                           # Douyin user id in profile URL, or leave blank and set douyin_link
+douyin_link                               :                                           # Full profile URL, e.g. https://www.douyin.com/user/MS4wLjAB...
+douyin_logo                               : assets/douyin-logo.png
 
 
 
@@ -63,15 +66,15 @@ features                                  :
     fontawesome_icon_name                 : file-image
     background_color                      : "#8BDDC9"                                    # Optional. Background color for this feature card (e.g. "#f5f5f5")
 
+  - title                                 : 尺寸标定
+    description                           : 为 PNG、JPG、WebP 图片格式纸样标定实际尺寸。
+    fontawesome_icon_name                 : ruler
+    background_color                      : "#E6D4F8"
+
   - title                                 : 缝纫社区
     description                           : 加入缝纫社区，和同好分享交流，帮助你找到喜欢的设计师、纸样、教程和面辅料。
     fontawesome_icon_name                 : users
     background_color                      : "#F6C1C9"                                    # Optional. Background color for this feature card (e.g. "#f5f5f5")
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
-    background_color                      : "#f5f5f5"                                    # Optional. Background color for this feature card (e.g. "#f5f5f5")
 
 
 
@@ -112,9 +115,9 @@ footer_text_color                         : "#555555"
 ####################################################
 
 # SEO Basic Settings
-title                                      : Coutto 纽扣纸样 - 投影仪裁切、拼接、打印、管理纸样
-description                                : 投影仪裁切、拼接、打印、管理纸样，一个App全搞定。数字精确校准，将纸样以实际尺寸投影到面料上，直接裁切，大幅简化裁料流程。
-url                                        : https://www.coutto.app
+title                                      : Coutto 纽扣纸样 - 投影仪裁切、拼接、打印、管理存储纸样
+description                                : 投影仪裁切、拼接、打印、管理存储纸样，一个App全搞定。数字精确校准，将纸样以实际尺寸投影到面料上，直接裁切，大幅简化裁料流程。
+url                                        : https://coutto.app
 logo                                       : /assets/app-icon.png
 image                                      : /assets/headerimage.jpg
 author                                     : Coutto Pattern
@@ -173,6 +176,11 @@ features_en                               :
     fontawesome_icon_name                 : file-image
     background_color                      : "#8BDDC9"
 
+  - title                                 : Size Calibration
+    description                           : Set the actual size for PNG, JPG, and WebP image patterns.
+    fontawesome_icon_name                 : ruler
+    background_color                      : "#E6D4F8"
+
   - title                                 : Sewing Community
     description                           : Join the sewing community to share and exchange with fellow enthusiasts, helping you find favorite designers, patterns, tutorials, and fabrics.
     fontawesome_icon_name                 : users
@@ -184,17 +192,17 @@ description_en                             : Cut fabric with projector, stitch, 
 
 # FAQ (Chinese)
 faq                                       :
-  - question                              : 我们支持什么设备？
+  - question                              : 支持什么设备？
     answer                                :
       - 纽扣纸样支持 iPhone、iPad，以及 Android 手机与平板电脑。
       - 进行投影仪校准与面料裁切时，建议使用屏幕更大的 iPad 或 Android 平板，操作更清晰、视野更好。
 
-  - question                              : 需要什么系统版本？
+  - question                              : 支持什么系统版本？
     answer                                :
       - iOS 设备需 iOS 17 或更高版本；Android 设备需 Android 8.0（API 26）或更高版本。
       - 请保持系统与 App 为较新版本，以获得最佳体验与兼容性。
 
-  - question                              : 裁切面料推荐什么投影仪？
+  - question                              : 裁切推荐什么投影仪？
     answer                                :
       - 建议选用至少 720p 分辨率、支持将手机画面镜像到投影仪的机型（可使用投影仪自带投屏/镜像软件，或系统无线投屏）。
       - 将手机镜像到投影仪后，在 App 内完成校准，即可按 1:1 尺寸投影纸样并沿投影线裁切面料。
@@ -207,49 +215,49 @@ faq                                       :
       - DXF、PLT、SVG 与 PDF 已经带有实际尺寸，可直接投影与打印。
       - PNG、JPEG、WebP 图片格式纸样，可通过标定功能设置实际尺寸后再投影裁切或者打印。
 
-  - question                              : 投影仪裁切前需要做什么准备？
+  - question                              : 投影裁切前要准备什么？
     answer                                :
       - 请准备投影仪、切割垫、卷尺与已安装纽扣纸样的手机或平板。
       - 使用投屏软件将手机镜像到投影仪后，在 App 中完成校准；若使用图片类纸样，请先通过标定功能设置实际尺寸。
       - 移动或重新开启投影仪，或更改长度单位后，请再次校准以确保投影尺寸准确。
 
-  - question                              : 哪些纸样格式支持 A3/A4 分片打印？
+  - question                              : 哪些格式支持 A3/A4 分片打印？
     answer                                :
       - 支持 PDF、SVG、DXF、PLT、PNG、JPEG、WebP 等常见纸样文件的 A3/A4 分片打印。
       - 图片格式 PNG、JPEG、WebP 纸样在通过标定功能设置实际尺寸后再打印。
 
 # FAQ (English)
 faq_en                                    :
-  - question                              : What devices are supported?
+  - question                              : Supported devices?
     answer                                :
       - Coutto Pattern runs on iPhone, iPad, and Android phones and tablets.
       - For projector calibration and fabric cutting, we recommend a larger screen such as an iPad or Android tablet for a clearer view and easier controls.
 
-  - question                              : What OS versions are required?
+  - question                              : Supported OS versions?
     answer                                :
       - iOS 17 or later on iPhone and iPad; Android 8.0 (API 26) or later on Android devices.
       - Keep your system and the app up to date for the best experience and compatibility.
 
-  - question                              : Which projector do you recommend for cutting fabric?
+  - question                              : Recommended projector for cutting?
     answer                                :
       - Choose a projector with at least 720p resolution that can mirror your phone screen (built-in casting/mirroring apps or system wireless display).
       - Mirror your phone to the projector, then calibrate in the app to project patterns at true size and cut along the projected lines.
       - Recalibrate whenever you turn on or move the projector. A cutting mat and tape measure are recommended; a grid mat helps improve calibration accuracy.
       - See the in-app “Choose Your Sewing Projector” tutorial for more setup tips.
 
-  - question                              : Which pattern file formats are supported?
+  - question                              : Supported pattern formats?
     answer                                :
       - You can import and manage PDF, SVG, DXF, PLT, PNG, JPEG, WebP, and other common pattern files.
       - DXF, PLT, SVG, and PDF already include real-world dimensions and can be projected or printed directly.
       - PNG, JPEG, and WebP image patterns can be calibrated to actual size before projector cutting or printing.
 
-  - question                              : How do I prepare for projector cutting?
+  - question                              : Prepare for projector cutting?
     answer                                :
       - You will need a projector, cutting mat, tape measure, and a phone or tablet with Coutto Pattern installed.
       - Mirror your phone to the projector with casting software, then calibrate in the app; for raster pattern images, set the real-world size first.
       - Recalibrate after moving the projector or changing length units so the projection stays accurate.
 
-  - question                              : Which pattern formats support tiled A4/A3 printing?
+  - question                              : A3/A4 tiled printing formats?
     answer                                :
       - PDF, SVG, DXF, PLT, PNG, JPEG, WebP, and other common pattern files support tiled A4/A3 printing.
       - For PNG, JPEG, and WebP image patterns, set the actual size with the calibration tools before printing.
@@ -275,7 +283,6 @@ sass:
 exclude:
   - LICENSE
   - README.md
-  - CNAME
   - vendor
 
 collections:

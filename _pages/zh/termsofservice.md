@@ -128,7 +128,7 @@ permalink: /zh/termsofservice/
 
 **邮箱：** guolin.mobi@gmail.com
 
-**网站：** https://www.coutto.app
+**网站：** https://coutto.app
 
 我们将在合理的时间内回复您的询问。
 

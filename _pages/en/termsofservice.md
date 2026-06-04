@@ -128,7 +128,7 @@ If you have any questions, comments, or concerns about these Terms of Service, p
 
 **Email:** guolin.mobi@gmail.com
 
-**Website:** https://www.coutto.app
+**Website:** https://coutto.app
 
 We will respond to your inquiries within a reasonable time.
 
