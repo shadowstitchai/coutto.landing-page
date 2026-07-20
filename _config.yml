@@ -35,10 +35,10 @@ youtube_username                          :
 mastodon_link                             :
 xiaohongshu_username                      : 6443d9ee00000000120361de
 xiaohongshu_logo                          : assets/xiaohongshu-logo.png
-bilibili_username                         : 1766825478
+bilibili_username                         : 3546896972909334
 bilibili_logo                             : assets/bilibili-logo.svg
 douyin_username                           :                                           # Douyin user id in profile URL, or leave blank and set douyin_link
-douyin_link                               :                                           # Full profile URL, e.g. https://www.douyin.com/user/MS4wLjAB...
+douyin_link                               : https://www.douyin.com/user/MS4wLjABAAAAEGgDzPo1fj9PnbUvHm22JLOMlpeW-_QciEy_kmk22zvhYFu5tjov9RsXm3lvuHTm                                          # Full profile URL, e.g. https://www.douyin.com/user/MS4wLjAB...
 douyin_logo                               : assets/douyin-logo.png
 
 
@@ -127,18 +127,10 @@ og:
   type                                     : website
 
 # Baidu SEO (百度 SEO)
-baidu_site_verification                    : codeva-CfS9LwWeLt
+baidu_site_verification                    : codeva-HUPTHbKhIz
 
 # Google SEO
-google_site_verification                  : BwRf-BTaC1euVVX4-QfPIY1jpRu4gPSDwo6H_wiqthE
-
-
-
-
-
-
-
-
+google_site_verification                  : C0yDzo2mmKHwm7iEhOLdvaVPpo-B6fIPbiuOob2xZNg
 
 
 
