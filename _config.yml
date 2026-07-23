@@ -271,6 +271,10 @@ lang_names:
 sass:
   style: :compressed # You might prefer to minify using :compressed
 
+# Dotfiles are excluded by default; keep Apple Universal Link AASA.
+include:
+  - .well-known
+
 # Exclude these files from your production _site
 exclude:
   - LICENSE

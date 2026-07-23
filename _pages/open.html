@@ -1,0 +1,81 @@
+---
+layout: null
+permalink: /open/
+---
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>打开纽扣纸样</title>
+	<meta name="description" content="正在打开纽扣纸样 App。若未安装，请前往 App Store 下载。">
+	<meta name="apple-itunes-app" content="app-id={{ site.ios_app_id }}">
+	<meta http-equiv="refresh" content="1;url=https://apps.apple.com/cn/app/id{{ site.ios_app_id }}">
+	<style>
+		:root {
+			--bg: #161b1d;
+			--fg: #ffffff;
+			--muted: rgba(255, 255, 255, 0.72);
+			--accent: #D62308;
+		}
+		* { box-sizing: border-box; }
+		body {
+			margin: 0;
+			min-height: 100vh;
+			display: grid;
+			place-items: center;
+			padding: 2rem;
+			font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", sans-serif;
+			color: var(--fg);
+			background:
+				radial-gradient(120% 80% at 50% -10%, rgba(214, 35, 8, 0.35), transparent 55%),
+				linear-gradient(160deg, #1c2428 0%, var(--bg) 55%, #0f1315 100%);
+		}
+		.card {
+			max-width: 22rem;
+			text-align: center;
+		}
+		.icon {
+			width: 5.5rem;
+			height: 5.5rem;
+			border-radius: 1.25rem;
+			box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+		}
+		h1 {
+			margin: 1.25rem 0 0.5rem;
+			font-size: 1.5rem;
+			font-weight: 600;
+			letter-spacing: 0.02em;
+		}
+		p {
+			margin: 0 0 1.5rem;
+			color: var(--muted);
+			line-height: 1.55;
+			font-size: 0.95rem;
+		}
+		a {
+			display: inline-block;
+			padding: 0.85rem 1.35rem;
+			border-radius: 0.75rem;
+			background: var(--accent);
+			color: var(--fg);
+			text-decoration: none;
+			font-weight: 600;
+		}
+	</style>
+</head>
+<body>
+	<main class="card">
+		<img class="icon" src="{{ '/assets/app-icon.png' | relative_url }}" alt="纽扣纸样">
+		<h1>打开纽扣纸样</h1>
+		<p>已安装 App 时会自动打开。若未跳转，请前往 App Store 下载。</p>
+		<a href="https://apps.apple.com/cn/app/id{{ site.ios_app_id }}">前往 App Store</a>
+	</main>
+	<script>
+		// Universal Link 失败时（未安装 App）落到本页，再引导到 App Store。
+		setTimeout(function () {
+			window.location.replace("https://apps.apple.com/cn/app/id{{ site.ios_app_id }}");
+		}, 800);
+	</script>
+</body>
+</html>
