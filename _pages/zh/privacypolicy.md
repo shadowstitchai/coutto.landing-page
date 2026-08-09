@@ -7,7 +7,7 @@ permalink: /zh/privacypolicy/
 ---
 
 **最后更新**  
-2026年6月
+2026年8月
 
 # 隐私政策
 
@@ -22,8 +22,9 @@ permalink: /zh/privacypolicy/
 ### 1.1 您主动提供的信息
 
 - **账户信息**：注册或登录时提供的邮箱地址、用户名、密码（加密存储）及头像等资料
+- **第三方登录信息**：使用微信或 Sign in with Apple 登录时，由登录服务提供商提供的账户标识（微信 openid / unionid、Apple 用户唯一标识）以及您授权分享的昵称、邮箱
 - **用户内容**：您导入、创建或上传的纸样文件（PDF、SVG、DXF、PLT、PNG、JPEG、WebP 等）、标注、分类与偏好设置
-- **社区内容**：您在缝纫社区中发布的帖子、评论、图片及其他互动内容（如适用）
+- **分享内容**：您与其他用户分享或接收的纸样文件及关联信息
 - **反馈与客服**：您通过邮件或应用内渠道提交的问题、建议或投诉
 
 ### 1.2 自动收集的信息
@@ -38,6 +39,11 @@ permalink: /zh/privacypolicy/
 - **应用商店**：Apple App Store、Google Play 提供的购买记录、订阅状态及匿名标识（我们不直接收集您的支付卡信息）
 - **统计分析服务**：第三方 SDK 提供的聚合使用数据（详见第 4 节）
 - **云同步服务**：用于账户登录与数据同步的后端服务返回的会话与存储信息
+- **登录服务提供商**：微信 / Apple 返回的登录标识、昵称与邮箱（如您选择分享）
+
+### 1.4 Sign in with Apple
+
+使用 Sign in with Apple 登录时，我们会接收 Apple 提供的用户唯一标识（sub）、您选择分享的姓名与邮箱（包括「隐藏邮箱」场景下的转发邮箱），仅用于创建账号、登录及账号生命周期管理。Apple 签发的身份令牌仅由服务端验证使用，不会下发至您的设备或在设备上持久化。为满足账号删除时 Apple 的授权撤销要求，服务端会以加密方式保存 Apple 签发的 refresh token；该 token 仅用于账号删除时向 Apple 撤销授权，不会用于访问您的 Apple 数据或任何其他用途，账号删除后随即吊销并删除。
 
 <br>
 
@@ -64,8 +70,11 @@ permalink: /zh/privacypolicy/
 | 信息类型 | 使用目的 | 是否必需 | 收集方式 |
 | :--- | :--- | :--- | :--- |
 | 邮箱地址 | 账户注册、登录、密码找回 | 注册账户时必需 | 用户主动提供 |
+| Apple 用户标识（sub） | 第三方登录、账号映射 | 使用 Apple 登录时必需 | 第三方（Apple）提供 |
+| 微信标识（openid / unionid） | 第三方登录、账号映射 | 使用微信登录时必需 | 第三方（微信）提供 |
+| Apple refresh token（加密存储） | 账号删除时撤销 Apple 授权 | 使用 Apple 登录时自动生成 | 服务端存储 |
 | 密码（加密） | 账户安全验证 | 注册账户时必需 | 用户主动提供 |
-| 昵称 / 头像 | 个人资料展示、社区互动 | 可选 | 用户主动提供 |
+| 昵称 / 头像 | 个人资料展示 | 可选 | 用户主动提供 |
 | 纸样文件及元数据 | 核心功能：存储、投影、打印、拼接 | 使用相关功能时必需 | 用户主动提供 |
 | 设备标识符 | 统计分析、崩溃诊断、防欺诈 | 自动收集 | 系统自动采集 |
 | 设备型号与系统版本 | 兼容性优化、问题排查 | 自动收集 | 系统自动采集 |
@@ -85,6 +94,7 @@ permalink: /zh/privacypolicy/
 | SDK 名称 | 服务类型 | 收集的个人信息类型 | 隐私政策链接 |
 | :--- | :--- | :--- | :--- |
 | 友盟+ SDK | 移动应用数据统计与分析 | 设备信息（IMEI / Android ID / IDFA / OPENUDID / GUID / SIM 卡 IMSI）、网络信息、应用使用行为；在授权情况下可能收集粗略地理位置 | [https://www.umeng.com/page/policy](https://www.umeng.com/page/policy) |
+| 微信 Open SDK | 微信登录 | 微信提供的登录标识（openid / unionid）、昵称与头像（如适用） | [https://privacy.qq.com/](https://privacy.qq.com/) |
 | Apple 框架（iOS） | 应用分发、App 内购买、崩溃报告（如启用） | 设备标识符、购买记录、崩溃日志 | [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/) |
 | Google Play 服务（Android） | 应用分发、App 内购买、崩溃报告（如启用） | 设备标识符、购买记录、崩溃日志 | [https://policies.google.com/privacy](https://policies.google.com/privacy) |
 
@@ -110,6 +120,7 @@ permalink: /zh/privacypolicy/
 
 - 您的数据主要存储于中华人民共和国境内及/或我们云服务提供商所在的数据中心
 - 我们仅在实现本政策所述目的所必需的期限内保留您的个人信息；账户注销后，我们将在合理期限内删除或匿名化处理您的数据，法律法规另有规定的除外
+- 使用 Sign in with Apple 登录的用户，其 refresh token 仅用于账号删除时向 Apple 撤销授权；账号删除后该 token 随账号数据一并删除
 
 ### 5.2 安全措施
 
@@ -134,7 +145,7 @@ permalink: /zh/privacypolicy/
 2. **更正**：请求更正不准确或不完整的信息
 3. **删除**：在符合法定条件时，请求删除您的个人信息
 4. **撤回同意**：撤回您此前给予的同意（不影响撤回前基于同意的处理合法性）
-5. **注销账户**：通过应用内设置或联系我们注销账户
+5. **注销账户**：通过应用内设置删除账户；使用 Sign in with Apple 登录的用户删除账户时，我们会同时向 Apple 撤销授权并删除相关数据
 6. **投诉**：向有管辖权的监管机构投诉
 
 ### 6.2 欧洲经济区（EEA）用户 — GDPR
@@ -157,7 +168,7 @@ permalink: /zh/privacypolicy/
 
 ## 7. 未成年人保护
 
-本应用主要面向年满 **14 周岁** 的用户。我们不会故意收集 14 周岁以下儿童的个人信息。若您是未成年人的监护人，发现我们未经同意收集了儿童信息，请联系我们，我们将尽快删除。
+本应用主要面向年满 **13 周岁** 的用户。我们不会故意收集 13 周岁以下儿童的个人信息。若您是未成年人的监护人，发现我们未经同意收集了儿童信息，请联系我们，我们将尽快删除。
 
 <br>
 
@@ -177,8 +188,8 @@ permalink: /zh/privacypolicy/
 
 如对本隐私政策或您的个人信息有任何疑问、请求或投诉，请联系：
 
-- **邮箱**：[contact@shadowstitch.cn](mailto:contact@shadowstitch.cn)
-- **网站**：[https://coutto.app](https://coutto.app)
+- **邮箱**：[admin@shadowstitch.cn](mailto:admin@shadowstitch.cn)
+- **网站**：[https://www.coutto.app](https://www.coutto.app)
 
 我们将在合理期限内（通常不超过 15 个工作日）回复您的请求。
 

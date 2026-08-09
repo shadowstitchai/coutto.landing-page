@@ -237,8 +237,8 @@ Disputes arising from these Terms shall first be resolved through good-faith neg
 
 If you have questions about these Terms, please contact us:
 
-- **Email:** [contact@shadowstitch.cn](mailto:contact@shadowstitch.cn)
-- **Website:** [https://coutto.app](https://coutto.app)
+- **Email:** [admin@shadowstitch.cn](mailto:admin@shadowstitch.cn)
+- **Website:** [https://www.coutto.app](https://www.coutto.app)
 
 We will respond within a reasonable time.
 

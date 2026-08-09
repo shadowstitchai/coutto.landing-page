@@ -7,7 +7,7 @@ permalink: /en/privacypolicy/
 ---
 
 **Last updated**  
-June 2026
+August 2026
 
 # Privacy Policy
 
@@ -22,8 +22,9 @@ By using the App, you acknowledge that you have read and understood this policy.
 ### 1.1 Information You Provide
 
 - **Account information**: Email address, username, password (stored encrypted), profile photo, and other registration details
+- **Third-party login information**: Account identifiers provided by the login provider when you sign in with WeChat or Sign in with Apple (WeChat openid / unionid, Apple's unique user identifier), plus the name and email you choose to share
 - **User content**: Pattern files you import, create, or upload (PDF, SVG, DXF, PLT, PNG, JPEG, WebP, etc.), annotations, categories, and preference settings
-- **Community content**: Posts, comments, images, and other interactions in the sewing community (where applicable)
+- **Shared content**: Pattern files you share with or receive from other users
 - **Feedback and support**: Questions, suggestions, or complaints submitted via email or in-app channels
 
 ### 1.2 Information Collected Automatically
@@ -38,6 +39,11 @@ By using the App, you acknowledge that you have read and understood this policy.
 - **App stores**: Purchase history, subscription status, and anonymous identifiers from Apple App Store or Google Play (we do not directly collect payment card details)
 - **Analytics providers**: Aggregated usage data from third-party SDKs (see Section 4)
 - **Cloud sync services**: Session and storage information from backend services used for account login and data synchronization
+- **Login providers**: Login identifiers, name, and email (if you choose to share) returned by WeChat / Apple
+
+### 1.4 Sign in with Apple
+
+When you sign in with Apple, we receive Apple's unique user identifier (sub), the name and email you choose to share (including the relay address in "Hide My Email" scenarios), used solely to create or sign into your account and for account lifecycle management. Identity tokens issued by Apple are verified server-side only and are not delivered to or persisted on your device. To meet Apple's account-deletion authorization requirements, we store the Apple-issued refresh token in encrypted form on the server. It is used solely to revoke Apple authorization when your account is deleted, is never used to access your Apple data or for any other purpose, and is revoked and removed together with your account data when the account is deleted.
 
 <br>
 
@@ -60,8 +66,11 @@ By using the App, you acknowledge that you have read and understood this policy.
 | Data Type | Purpose | Required? | Collection Method |
 | :--- | :--- | :--- | :--- |
 | Email address | Registration, login, password recovery | Required for account | Provided by you |
+| Apple user identifier (sub) | Third-party login, account mapping | Required when signing in with Apple | Provided by Apple |
+| WeChat identifier (openid / unionid) | Third-party login, account mapping | Required when signing in with WeChat | Provided by WeChat |
+| Apple refresh token (encrypted) | Revoking Apple authorization on account deletion | Generated automatically when signing in with Apple | Stored server-side |
 | Password (encrypted) | Account authentication | Required for account | Provided by you |
-| Display name / avatar | Profile and community features | Optional | Provided by you |
+| Display name / avatar | Profile display | Optional | Provided by you |
 | Pattern files & metadata | Core features: storage, projection, printing, stitching | Required for related features | Provided by you |
 | Device identifiers | Analytics, crash diagnostics, fraud prevention | Automatic | System collection |
 | Device model & OS version | Compatibility and troubleshooting | Automatic | System collection |
@@ -81,6 +90,7 @@ To enable app functionality and ensure secure, stable operation, we integrate th
 | SDK | Service Type | Personal Data Collected | Privacy Policy |
 | :--- | :--- | :--- | :--- |
 | Umeng+ SDK | Mobile analytics & statistics | Device info (IMEI / Android ID / IDFA / OPENUDID / GUID / SIM IMSI), network info, app usage; coarse location if authorized | [https://www.umeng.com/page/policy](https://www.umeng.com/page/policy) |
+| WeChat Open SDK | WeChat login | Login identifiers (openid / unionid), name and avatar provided by WeChat (where applicable) | [https://privacy.qq.com/](https://privacy.qq.com/) |
 | Apple frameworks (iOS) | Distribution, in-app purchases, crash reporting (if enabled) | Device identifiers, purchase records, crash logs | [https://www.apple.com/legal/privacy/](https://www.apple.com/legal/privacy/) |
 | Google Play services (Android) | Distribution, in-app purchases, crash reporting (if enabled) | Device identifiers, purchase records, crash logs | [https://policies.google.com/privacy](https://policies.google.com/privacy) |
 
@@ -106,6 +116,7 @@ We do not sell your personal information. We may share information when:
 
 - Your data is primarily stored in data centers located in the People's Republic of China and/or regions where our cloud providers operate
 - We retain personal information only as long as necessary for the purposes described in this policy. After account deletion, we will delete or anonymize your data within a reasonable period, except where retention is required by law
+- For users who sign in with Apple, the refresh token is used solely to revoke Apple authorization when the account is deleted; it is removed together with your account data after deletion
 
 ### 5.2 Security Measures
 
@@ -130,7 +141,7 @@ Depending on applicable law, you may have the right to:
 2. **Correct** inaccurate or incomplete data
 3. **Delete** your personal information where legally permitted
 4. **Withdraw consent** (without affecting prior processing based on consent)
-5. **Close your account** via in-app settings or by contacting us
+5. **Close your account** via in-app account deletion; for users who sign in with Apple, we will simultaneously revoke Apple authorization and delete the related data
 6. **Lodge a complaint** with a supervisory authority
 
 ### 6.2 European Economic Area (EEA) — GDPR
@@ -173,8 +184,8 @@ We may update this Privacy Policy from time to time. For material changes, we wi
 
 For questions, requests, or complaints about this Privacy Policy or your personal information:
 
-- **Email:** [contact@shadowstitch.cn](mailto:contact@shadowstitch.cn)
-- **Website:** [https://coutto.app](https://coutto.app)
+- **Email:** [admin@shadowstitch.cn](mailto:admin@shadowstitch.cn)
+- **Website:** [https://www.coutto.app](https://www.coutto.app)
 
 We aim to respond within a reasonable time (typically within 15 business days).
 

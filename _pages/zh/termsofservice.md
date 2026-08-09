@@ -252,8 +252,8 @@ permalink: /zh/termsofservice/
 
 如对本服务条款有任何疑问，请联系：
 
-- **邮箱**：[contact@shadowstitch.cn](mailto:contact@shadowstitch.cn)
-- **网站**：[https://coutto.app](https://coutto.app)
+- **邮箱**：[admin@shadowstitch.cn](mailto:admin@shadowstitch.cn)
+- **网站**：[https://www.coutto.app](https://www.coutto.app)
 
 我们将在合理期限内回复您的询问。
 
