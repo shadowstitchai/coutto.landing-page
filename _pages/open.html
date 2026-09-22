@@ -10,7 +10,7 @@ permalink: /open/
 	<title>打开纽扣纸样</title>
 	<meta name="description" content="正在打开纽扣纸样 App。若未安装，请前往 App Store 下载。">
 	<meta name="apple-itunes-app" content="app-id={{ site.ios_app_id }}">
-	<meta http-equiv="refresh" content="1;url=https://apps.apple.com/cn/app/id{{ site.ios_app_id }}">
+	<meta http-equiv="refresh" content="1;url=https://apps.apple.com/app/id{{ site.ios_app_id }}">
 	<style>
 		:root {
 			--bg: #161b1d;
@@ -69,12 +69,12 @@ permalink: /open/
 		<img class="icon" src="{{ '/assets/app-icon.png' | relative_url }}" alt="纽扣纸样">
 		<h1>打开纽扣纸样</h1>
 		<p>已安装 App 时会自动打开。若未跳转，请前往 App Store 下载。</p>
-		<a href="https://apps.apple.com/cn/app/id{{ site.ios_app_id }}">前往 App Store</a>
+		<a href="https://apps.apple.com/app/id{{ site.ios_app_id }}">前往 App Store</a>
 	</main>
 	<script>
 		// Universal Link 失败时（未安装 App）落到本页，再引导到 App Store。
 		setTimeout(function () {
-			window.location.replace("https://apps.apple.com/cn/app/id{{ site.ios_app_id }}");
+			window.location.replace("https://apps.apple.com/app/id{{ site.ios_app_id }}");
 		}, 800);
 	</script>
 </body>
