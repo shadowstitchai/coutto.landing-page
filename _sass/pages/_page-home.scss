@@ -1,0 +1,99 @@
+.page-home,
+.page-blog {
+  .service-content {
+    position: relative;
+    isolation: isolate;
+    padding-top: 30px;
+  }
+  .service-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+    z-index: -1;
+    pointer-events: none;
+  }
+  .service-title a {
+    font-family: "PingFang SC", "Microsoft YaHei", "SimHei", sans-serif;
+    font-weight: 700;
+    color: #D52207;
+    &:hover {
+      color: #D52207;
+      text-decoration: none;
+    }
+  }
+}
+
+.page-home {
+  .home-faq {
+    .faq-title {
+      font-family: "PingFang SC", "Microsoft YaHei", "SimHei", sans-serif;
+      font-weight: 700;
+      color: #D52207;
+      max-width: 960px;
+      margin: 0 auto 30px;
+    }
+    .faq-list {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .faq-item {
+      box-sizing: border-box;
+      width: 100%;
+      min-height: 73px;
+      padding: 20px 24px;
+      font-family: "PingFang SC", "Microsoft YaHei", "SimHei", sans-serif;
+      background: #ffffff;
+      border: 0.5px solid rgba(234, 67, 53, 0.2);
+      border-radius: 2px;
+      & + .faq-item {
+        margin-top: 10px;
+      }
+      summary {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        min-height: 32px;
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 500;
+        color: #000000;
+        cursor: pointer;
+        list-style: none;
+        span {
+          flex: 1;
+          min-width: 0;
+        }
+        &::-webkit-details-marker {
+          display: none;
+        }
+        &::after {
+          content: "";
+          flex: 0 0 32px;
+          height: 32px;
+          background: url("../../images/faq/ic_plus.svg") center / contain no-repeat;
+        }
+      }
+      &[open] {
+        summary::after {
+          background-image: url("../../images/faq/ic_minus.svg");
+        }
+      }
+    }
+    .faq-answer {
+      margin: 8px 0 0;
+      padding-left: 24px;
+      list-style: disc;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 28px;
+      color: #000000;
+      li {
+        margin: 0;
+        line-height: inherit;
+      }
+    }
+  }
+}

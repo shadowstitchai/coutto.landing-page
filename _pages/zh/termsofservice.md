@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: legal
 title: 服务条款
-lang: zh
+lang: zh-CN
+translation_url: /en/termsofservice/
+translation_lang: en
 include_in_header: false
 permalink: /zh/termsofservice/
 ---

@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: legal
 title: What's New
 lang: en
+translation_url: /zh/changelog/
+translation_lang: zh-CN
 include_in_header: true
 permalink: /en/changelog/
 ---

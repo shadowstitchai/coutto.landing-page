@@ -1,34 +1,12 @@
-<footer>
-	{% if site.your_name %}
-	<p class="footerText">Made by {% if site.your_link %}<a href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{% if site.your_link %}</a>{% endif %}{% if site.your_city %} in {{ site.your_city }}{% endif %}</p>
-	{% endif %}
-	<div class="footerLinks">
-		{% assign current_lang = page.lang | default: site.default_lang %}
-		{% if current_lang == "en" %}
-			{% assign app_name_display = site.app_name_en %}
-		{% else %}
-			{% assign app_name_display = site.app_name %}
-		{% endif %}
-		<span>&copy;2026 {{ app_name_display }}</span>
-		{% if current_lang != "en" %}
-			<span>·</span>
-			<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备2026038559号-2A</a>
-			<span>·</span>
-			<a href="https://beian.mps.gov.cn/#/query/webSearch?code=11010602202879" target="_blank" rel="noopener noreferrer">京公网安备11010602202879号</a>
-		{% endif %}
-		<span>·</span>
-		{% if current_lang == "en" %}
-			{% for page_item in site.pages %}
-				{% if page_item.permalink contains "termsofservice" and page_item.lang == current_lang %}
-					<a href="{{ page_item.url | relative_url }}" target="_self">{{ page_item.title }}</a>
-				{% endif %}
-			{% endfor %}
-		{% else %}
-			{% for page_item in site.pages %}
-				{% if page_item.permalink contains "privacypolicy" and page_item.lang == current_lang %}
-					<a href="{{ page_item.url | relative_url }}" target="_self">{{ page_item.title }}</a>
-				{% endif %}
-			{% endfor %}
-		{% endif %}
-	</div>
-</footer>
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h2 class="footer-title">{% if page.lang == 'en' %}©2026 Coutto Sew · Sew with confidence{% else %}©2026 纽扣纸样 · 让每个人都自信手作{% endif %}</h2>
+          <p class="footer-tagline"><a href="https://coutto.app/{% if page.lang == 'en' %}en{% else %}zh{% endif %}/privacypolicy/" target="_blank" rel="noopener">{% if page.lang == 'en' %}Privacy{% else %}隐私政策{% endif %}</a>{% unless page.lang == 'en' %} · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">京ICP备2026038559号-2A</a> · <a href="https://beian.mps.gov.cn/#/query/webSearch?code=11010602202879" target="_blank" rel="noopener">京公网安备11010602202879号</a>{% endunless %}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

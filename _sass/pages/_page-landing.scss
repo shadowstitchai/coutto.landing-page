@@ -1,0 +1,618 @@
+@font-face {
+  font-family: "Coutto Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/coutto-inter.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Coutto Inter Brand";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/coutto-inter-medium.ttf?v=2") format("truetype");
+}
+
+@font-face {
+  font-family: "Coutto Serif";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/coutto-serif-black.ttf") format("truetype");
+}
+
+.page-home {
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #000000;
+
+  @include media-breakpoint-up(lg) {
+    .container {
+      max-width: 960px;
+    }
+  }
+
+
+  .landing-hero {
+    .container {
+      position: relative;
+      min-height: 552px;
+    }
+    .hero-copy {
+      width: 370px;
+      padding-top: 140px;
+    }
+    h1 {
+      margin: 0 0 24px;
+      font-family: "Coutto Serif", "Noto Serif SC", serif;
+      font-size: 56px;
+      font-weight: 900;
+      line-height: 64px;
+      color: #D52106;
+    }
+    p {
+      margin: 0 0 24px;
+      font-family: inherit;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: #000000;
+    }
+    .hero-illustration {
+      position: absolute;
+      top: 40px;
+      left: 415px;
+      width: 560px;
+      height: auto;
+    }
+    .social-network {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 24px;
+      .social-icons {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        a, img {
+          display: block;
+          width: 24px;
+          height: 24px;
+        }
+      }
+      .social-search {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        flex: 0 0 auto;
+        height: 24px;
+        padding: 0 10px 0 4px;
+        border: 0.5px solid rgba(0, 0, 0, 0.3);
+        border-radius: 6px;
+        font-size: 12px;
+        line-height: 24px;
+        white-space: nowrap;
+        img {
+          display: block;
+          flex-shrink: 0;
+        }
+      }
+    }
+    .app-downloads {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding-top: 0;
+      align-items: center;
+      a, img {
+        display: block;
+      }
+      button {
+        display: block;
+        border: 0;
+        padding: 0;
+        background: transparent;
+        cursor: default;
+      }
+      .ios-download {
+        position: relative;
+        &:hover .ios-qr-popup,
+        &:focus-within .ios-qr-popup {
+          visibility: visible;
+          opacity: 1;
+          pointer-events: auto;
+        }
+      }
+      .ios-qr-popup {
+        box-sizing: border-box;
+        position: absolute;
+        top: calc(100% + 8px);
+        left: 0;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 190px;
+        height: 218px;
+        padding: 5px 5px 15px;
+        background: #ffffff;
+        border: 0.5px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.04), 0 8px 16px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+        &::before {
+          content: "";
+          position: absolute;
+          top: -9px;
+          left: 0;
+          width: 100%;
+          height: 9px;
+        }
+        img {
+          width: 180px;
+          max-width: 100%;
+          height: auto;
+        }
+        span {
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 18px;
+          color: #2f2f41;
+        }
+      }
+    }
+  }
+
+  .landing-screenshots {
+    .screenshots-track {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scroll-snap-type: x proximity;
+      .screenshot-preview {
+        flex: 0 0 160px;
+        scroll-snap-align: start;
+        padding: 0;
+        border: 0;
+        background: transparent;
+        cursor: zoom-in;
+      }
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 0.5px solid rgba(234, 67, 53, 0.2);
+        border-radius: 2px;
+      }
+    }
+  }
+
+  .screenshots-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 12px;
+      height: 24px;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+      &::before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #d2d2d7;
+      }
+      &[aria-current="true"]::before {
+        background: #6e6e73;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    .landing-screenshots .screenshots-track {
+      .screenshot-preview {
+        flex-basis: calc((100% - 32px) / 3);
+      }
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .landing-screenshots .screenshots-track .screenshot-preview {
+      flex-basis: 180px;
+    }
+  }
+
+  .screenshot-dialog {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    padding: 56px 64px 24px;
+    border: 0;
+    background: transparent;
+    &[open] {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &::backdrop {
+      background: rgba(0, 0, 0, 0.75);
+    }
+    > img {
+      width: auto;
+      height: auto;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    .screenshot-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      padding: 0;
+      border: 0;
+      border-radius: 50%;
+      color: #ffffff;
+      background: rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+      &:disabled {
+        opacity: 0.3;
+        cursor: default;
+      }
+    }
+    .screenshot-previous {
+      left: 64px;
+    }
+    .screenshot-next {
+      right: 64px;
+    }
+    @include media-breakpoint-down(md) {
+      .screenshot-previous {
+        left: 16px;
+      }
+      .screenshot-next {
+        right: 16px;
+      }
+    }
+    .screenshot-close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      border: 0;
+      color: #ffffff;
+      background: transparent;
+      cursor: pointer;
+    }
+  }
+
+  .landing-features {
+    padding: 80px 0 20px;
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 50px 30px;
+    }
+    .feature-card {
+      position: relative;
+      isolation: isolate;
+      padding-top: 30px;
+    }
+    .feature-icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 120px;
+      height: 120px;
+      z-index: -1;
+    }
+    .feature-title {
+      margin: 0 0 10px;
+      font-family: "Coutto Serif", "Noto Serif SC", serif;
+      font-size: 28px;
+      font-weight: 900;
+      line-height: 40px;
+      color: #D52207;
+    }
+    .feature-summary {
+      margin: 0;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+      color: rgba(0, 0, 0, 0.6);
+    }
+  }
+
+  .home-faq {
+    padding: 60px 0 80px;
+    .faq-title {
+      max-width: none;
+      margin: 0 0 24px;
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 40px;
+    }
+    .faq-list {
+      max-width: none;
+    }
+    .faq-item + .faq-item {
+      margin-top: 4px;
+    }
+  }
+
+
+  @include media-breakpoint-down(lg) {
+    .landing-hero {
+      .hero-copy {
+        width: 45%;
+        padding-top: 110px;
+      }
+      h1 {
+        font-size: 48px;
+        line-height: 60px;
+      }
+      .hero-illustration {
+        left: auto;
+        right: 15px;
+        top: 64px;
+        width: 50%;
+      }
+    }
+
+  }
+
+  @include media-breakpoint-down(md) {
+    .landing-hero {
+      .container {
+        min-height: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding-top: 36px;
+        padding-bottom: 48px;
+      }
+      .hero-copy {
+        width: 100%;
+        padding: 0;
+      }
+      h1 {
+        font-size: 42px;
+        line-height: 56px;
+      }
+      .hero-illustration {
+        position: static;
+        width: 100%;
+        max-width: 560px;
+        align-self: center;
+      }
+    }
+    .landing-features {
+      padding-top: 56px;
+      .feature-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+    }
+    .home-faq {
+      padding: 40px 0 56px;
+    }
+  }
+}
+
+.page-home,
+.page-blog,
+.page-post {
+  background-color: #ffffff;
+  background-image: url("../../images/backgrounds/pic_background_up.svg?v=2"), url("../../images/backgrounds/pic_background_down.png");
+  background-position: left top, center bottom;
+  background-repeat: repeat-x;
+
+  .header,
+  .footer {
+    font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+    @include media-breakpoint-up(lg) {
+      .container {
+        max-width: 960px;
+      }
+    }
+  }
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 15;
+    height: 64px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    &.is-scrolled {
+      background: rgba(255, 255, 255, 0.8);
+      -webkit-backdrop-filter: blur(8px);
+      backdrop-filter: blur(8px);
+    }
+    .site-brand {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-family: inherit;
+      font-size: 14px;
+      line-height: 24px;
+      color: #D52106;
+      font-weight: 500;
+    }
+    .site-brand,
+    .main-menu > ul > li > a {
+      &:hover,
+      &:focus-visible {
+        font-weight: 700;
+        text-decoration: none;
+      }
+    }
+    .brand-english, .language-link .menu-label {
+      font-family: "Coutto Inter", "PingFang SC", sans-serif;
+    }
+    .brand-icon {
+      display: flex;
+      width: 24px;
+      height: 24px;
+      align-items: center;
+      justify-content: center;
+      img {
+        border-radius: 5px;
+      }
+    }
+    .main-menu > ul {
+      gap: 24px;
+      > li > a {
+        padding: 0;
+        font-family: inherit;
+        font-size: 14px;
+        line-height: 24px;
+        color: #D52106;
+        font-weight: 500;
+      }
+    }
+    .language-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      svg {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
+
+  .language-link:hover svg,
+  .language-link:focus-visible svg {
+    stroke-width: 2.5;
+  }
+
+  .main-menu-mobile {
+    background: #FFFFFF;
+  }
+
+  .main-menu-mobile a {
+    color: #D52106;
+    font-weight: 500;
+    &:hover,
+    &:focus-visible {
+      font-weight: 700;
+    }
+  }
+
+  .footer {
+    padding: 0;
+    background: transparent;
+    .footer-inner {
+      min-height: 64px;
+      gap: 40px;
+    }
+    .footer-title, .footer-tagline {
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 24px;
+      color: rgba(213, 34, 7, 0.7);
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    .footer .footer-inner {
+      gap: 16px;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    .footer .footer-inner {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      padding: 16px 0;
+      .footer-title {
+        margin: 0;
+        flex-shrink: 1;
+      }
+    }
+  }
+}
+
+.page-blog,
+.page-post {
+  background-image: url("../../images/backgrounds/pic_background_down.png");
+  background-position: center bottom;
+}
+
+html:has(.screenshot-dialog[open]) {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/noto-serif-black-en.ttf") format("truetype");
+}
+
+html[lang="en"] {
+  .page-home {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    .landing-hero h1,
+    .landing-features .feature-title {
+      font-family: "Noto Serif", serif;
+    }
+    .home-faq .faq-item,
+    .home-faq .faq-title {
+      font-family: inherit;
+    }
+  }
+  .header {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    .site-brand,
+    .brand-english,
+    .main-menu > ul > li > a,
+    .language-link .menu-label {
+      font-family: inherit;
+    }
+  }
+}
+
+html[lang="en"] {
+  .page-blog,
+  .page-post {
+    .wrapper > .container,
+    .footer {
+      &,
+      * {
+        font-family: inherit;
+      }
+    }
+  }
+}
+
+html[lang="zh-CN"] .header .site-brand .brand-english,
+html[lang="zh-CN"] .header .language-link .menu-label {
+  font-family: "Coutto Inter Brand", "Coutto Inter", sans-serif;
+}

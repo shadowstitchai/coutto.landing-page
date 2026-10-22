@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: legal
 title: Privacy Policy
 lang: en
+translation_url: /zh/privacypolicy/
+translation_lang: zh-CN
 include_in_header: false
 permalink: /en/privacypolicy/
 ---

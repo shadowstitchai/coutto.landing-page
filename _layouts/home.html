@@ -1,0 +1,96 @@
+---
+layout: default
+bodyClass: "page-home"
+---
+
+{% assign home_lang = page.lang | default: 'zh-CN' %}
+{% assign labels = site.data.home_ui[home_lang] %}
+{% assign home_services = site.data.home_services %}
+{% assign home_faqs = site.data.home_faqs %}
+{% if home_lang == 'en' %}
+  {% assign home_services = site.data.home_en.services %}
+  {% assign home_faqs = site.data.home_en.faqs %}
+{% endif %}
+
+<section class="landing-hero">
+  <div class="container">
+    <div class="hero-copy">
+      {{ content }}
+      <div class="app-downloads">
+        <div class="ios-download">
+          <a href="https://apps.apple.com/app/id6797682018" aria-describedby="ios-qr-caption">
+            <img src="{{ '/images/badges/app-store.svg' | relative_url }}" alt="{{ labels.app_store | escape }}" width="148" height="48" />
+          </a>
+          <div class="ios-qr-popup">
+            <img src="{{ '/images/badges/ios-qr-code.png' | relative_url }}" alt="{{ labels.qr_alt | escape }}" width="180" height="180" />
+            <span id="ios-qr-caption">{{ labels.qr_caption }}</span>
+          </div>
+        </div>
+        <button type="button" aria-disabled="true" title="{{ labels.android_soon | escape }}" aria-label="{{ labels.android_label | escape }}">
+          <img src="{{ labels.android_badge | relative_url }}" alt="{{ labels.android_alt | escape }}" width="{{ labels.android_width }}" height="48" />
+        </button>
+      </div>
+      <div class="social-network" role="group" aria-label="{{ labels.social_label | escape }}">
+        <div class="social-icons">
+          <a href="https://www.xiaohongshu.com/user/profile/6443d9ee00000000120361de" target="_blank" rel="noopener" title="{{ labels.social_rednote | escape }}"><img src="{{ '/images/social/ic_xiaohongshu.svg' | relative_url }}" alt="{{ labels.social_rednote | escape }}" width="24" height="24" /></a>
+          <a href="https://space.bilibili.com/3546896972909334" target="_blank" rel="noopener" title="{{ labels.social_bilibili | escape }}"><img src="{{ '/images/social/ic_bilibili.svg' | relative_url }}" alt="{{ labels.social_bilibili | escape }}" width="24" height="24" /></a>
+          <a href="https://www.douyin.com/user/MS4wLjABAAAAEGgDzPo1fj9PnbUvHm22JLOMlpeW-_QciEy_kmk22zvhYFu5tjov9RsXm3lvuHTm" target="_blank" rel="noopener" title="{{ labels.social_tiktok | escape }}"><img src="{{ '/images/social/ic_tiktok.svg' | relative_url }}" alt="{{ labels.social_tiktok | escape }}" width="24" height="24" /></a>
+        </div>
+        <span class="social-search" title="{{ labels.social_search_hint | escape }}"><img src="{{ '/images/social/ic_search.svg' | relative_url }}" alt="" width="24" height="24" /><span>{{ labels.social_search | escape }}</span></span>
+      </div>
+    </div>
+    <img class="hero-illustration" src="{{ '/images/illustrations/coutto-sewing.svg' | relative_url }}" alt="{{ labels.illustration | escape }}" width="560" height="432" />
+  </div>
+</section>
+
+<section class="landing-screenshots container" aria-label="{{ labels.screenshots }}">
+  <div id="screenshots-track" class="screenshots-track" tabindex="0" aria-label="{{ labels.scroll }}">
+    {% for screenshot in site.data.home_screenshots %}
+    {% assign screenshot_alt = screenshot.alt %}
+    {% if home_lang == 'en' %}{% assign screenshot_alt = screenshot.alt_en %}{% endif %}
+    <button class="screenshot-preview" type="button" aria-label="{{ labels.zoom }}{{ screenshot_alt | escape }}">
+    <img src="{{ '/images/screenshots/' | append: screenshot.file | relative_url }}" alt="{{ screenshot_alt | escape }}" width="160" height="348" />
+    </button>
+    {% endfor %}
+  </div>
+  <div class="screenshots-controls" data-page-label="{{ labels.page_label }}" role="group" aria-label="{{ labels.pages }}"></div>
+</section>
+
+<dialog class="screenshot-dialog" aria-label="{{ labels.preview }}">
+  <button class="screenshot-close" type="button" aria-label="{{ labels.close }}" autofocus><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5L19 19M19 5L5 19" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg></button>
+  <button class="screenshot-nav screenshot-previous" type="button" aria-label="{{ labels.previous }}"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5L8 12L15 19" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
+  <img alt="" />
+  <button class="screenshot-nav screenshot-next" type="button" aria-label="{{ labels.next }}"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5L16 12L9 19" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
+</dialog>
+
+<section class="landing-features" aria-label="{{ labels.features }}">
+  <div class="container">
+    <div class="feature-grid">
+      {% for service in home_services %}
+      <div class="feature-card">
+        <img class="feature-icon" src="{{ service.icon | relative_url }}" alt="" aria-hidden="true" width="120" height="120" />
+        <h2 class="feature-title">{{ service.title | escape }}</h2>
+        <p class="feature-summary">{{ service.summary | escape }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="home-faq" aria-labelledby="faq-title">
+  <div class="container">
+    <h2 id="faq-title" class="faq-title">{{ labels.faq }}</h2>
+    <div class="faq-list">
+      {% for faq in home_faqs %}
+      <details class="faq-item" name="home-faq"{% if forloop.first %} open{% endif %}>
+        <summary><span>{{ faq.question | escape }}</span></summary>
+        <ul class="faq-answer">
+          {% for sentence in faq.answers %}
+          <li>{{ sentence | escape }}</li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>

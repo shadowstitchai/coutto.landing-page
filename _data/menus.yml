@@ -1,0 +1,18 @@
+main:
+  - name: "使用教程"
+    name_en: "Tutorials"
+    url: "/tutorials/"
+    url_en: "/en/tutorials/"
+    weight: 1
+  - name: "English"
+    name_en: "中文"
+    url: "/en/"
+    weight: 3
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Contact"
+    url: "/contact/"
+    weight: 2

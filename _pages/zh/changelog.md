@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: legal
 title: 更新日志
-lang: zh
+lang: zh-CN
+translation_url: /en/changelog/
+translation_lang: en
 include_in_header: true
 permalink: /zh/changelog/
 ---
