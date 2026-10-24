@@ -1,32 +1,37 @@
 [
   {
-    "file": "02-hero.jpg",
+    "file": "02-hero.png",
     "alt": "投影仪校准与真实尺寸裁切",
     "alt_en": "Projector calibration and actual-size fabric cutting"
   },
   {
-    "file": "03-device-top.jpg",
+    "file": "03-device-top.png",
     "alt": "图片纸样实际尺寸标定",
     "alt_en": "Image pattern size calibration"
   },
   {
-    "file": "04-hero.jpg",
+    "file": "04-hero.png",
     "alt": "多种格式纸样管理与存储",
     "alt_en": "Pattern management and storage"
   },
   {
-    "file": "05-device-top.jpg",
+    "file": "05-device-top.png",
     "alt": "A4 纸样拼接",
     "alt_en": "A4 pattern stitching"
   },
   {
-    "file": "06-hero.jpg",
+    "file": "06-hero.png",
     "alt": "大尺寸纸样分片打印",
     "alt_en": "Large pattern tiled printing"
   },
   {
-    "file": "07-device-top.jpg",
-    "alt": "投影刺绣预览与格式转换",
-    "alt_en": "Embroidery projection preview and format conversion"
+    "file": "07-device-top.png",
+    "alt": "AR 实景刺绣预览与格式转换",
+    "alt_en": "AR embroidery preview and format conversion"
+  },
+  {
+    "file": "08-hero.png",
+    "alt": "纸样教程与缝纫交流",
+    "alt_en": "Sewing tutorials and community"
   }
 ]
