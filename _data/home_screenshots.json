@@ -1,37 +1,44 @@
 [
   {
-    "file": "02-hero.png",
+    "file": "zh-Hans/02-calibrate.png",
     "alt": "投影仪校准与真实尺寸裁切",
-    "alt_en": "Projector calibration and actual-size fabric cutting"
+    "alt_en": "Projector calibration and actual-size fabric cutting",
+    "file_en": "en/02-calibrate.png"
   },
   {
-    "file": "03-device-top.png",
+    "file": "zh-Hans/03-size-setting.png",
     "alt": "图片纸样实际尺寸标定",
-    "alt_en": "Image pattern size calibration"
+    "alt_en": "Image pattern size calibration",
+    "file_en": "en/03-size-setting.png"
   },
   {
-    "file": "04-hero.png",
+    "file": "zh-Hans/04-my-library.png",
     "alt": "多种格式纸样管理与存储",
-    "alt_en": "Pattern management and storage"
+    "alt_en": "Pattern management and storage",
+    "file_en": "en/04-my-library.png"
   },
   {
-    "file": "05-device-top.png",
+    "file": "zh-Hans/05-splicing-pattern.png",
     "alt": "A4 纸样拼接",
-    "alt_en": "A4 pattern stitching"
+    "alt_en": "A4 pattern stitching",
+    "file_en": "en/05-splicing-pattern.png"
   },
   {
-    "file": "06-hero.png",
+    "file": "zh-Hans/06-print.png",
     "alt": "大尺寸纸样分片打印",
-    "alt_en": "Large pattern tiled printing"
+    "alt_en": "Large pattern tiled printing",
+    "file_en": "en/06-print.png"
   },
   {
-    "file": "07-device-top.png",
+    "file": "zh-Hans/07-embroidery-vr-preview.png",
     "alt": "AR 实景刺绣预览与格式转换",
-    "alt_en": "AR embroidery preview and format conversion"
+    "alt_en": "AR embroidery preview and format conversion",
+    "file_en": "en/07-embroidery-vr-preview.png"
   },
   {
-    "file": "08-hero.png",
+    "file": "zh-Hans/08-tutorials.png",
     "alt": "纸样教程与缝纫交流",
-    "alt_en": "Sewing tutorials and community"
+    "alt_en": "Sewing tutorials and community",
+    "file_en": "en/08-tutorials.png"
   }
 ]

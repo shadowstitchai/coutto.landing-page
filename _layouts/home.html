@@ -47,9 +47,10 @@ bodyClass: "page-home"
   <div id="screenshots-track" class="screenshots-track" tabindex="0" aria-label="{{ labels.scroll }}">
     {% for screenshot in site.data.home_screenshots %}
     {% assign screenshot_alt = screenshot.alt %}
-    {% if home_lang == 'en' %}{% assign screenshot_alt = screenshot.alt_en %}{% endif %}
+    {% assign screenshot_file = screenshot.file %}
+    {% if home_lang == 'en' %}{% assign screenshot_alt = screenshot.alt_en %}{% assign screenshot_file = screenshot.file_en %}{% endif %}
     <button class="screenshot-preview" type="button" aria-label="{{ labels.zoom }}{{ screenshot_alt | escape }}">
-    <img src="{{ '/images/screenshots/' | append: screenshot.file | relative_url }}" alt="{{ screenshot_alt | escape }}" width="160" height="348" />
+    <img src="{{ '/images/screenshots/' | append: screenshot_file | relative_url }}" alt="{{ screenshot_alt | escape }}" width="160" height="348" />
     </button>
     {% endfor %}
   </div>
