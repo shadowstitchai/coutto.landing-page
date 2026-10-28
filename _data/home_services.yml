@@ -8,9 +8,9 @@
   summary: "保存 PLT、DXF、PDF、SVG、PNG、JPG 纸样。按款式、格式进行分类管理，清晰有序，易于查找。"
   url: /services/mergers/
 
-- title: "纸样拼接"
+- title: "AI 智能拼接"
   icon: /images/grid-icons/pic_stitching.svg
-  summary: "支持 A4、A3 PDF 纸样拼接成整张大尺寸纸样，拼接后可投影仪裁切。"
+  summary: "AI 自动将单个纸样文件中的多张 A4 局部纸样拼接为完整的大张纸样，精准对齐拼接边缘，为投影裁切做好准备。"
   url: /services/business-sales/
 
 - title: "纸样打印"
@@ -18,9 +18,9 @@
   summary: "PLT、DXF 无需转换格式，可手机直接打印。支持大尺寸纸样分片打印，自动裁切 A4、A3 家用纸张打印。"
   url: /services/business-advisory/
 
-- title: "尺寸标定"
+- title: "AI 尺寸标定"
   icon: /images/grid-icons/pic_communication.svg
-  summary: "为 PNG、JPG、WebP 图片格式纸样标定实际尺寸。从而以正确尺寸打印或投影。"
+  summary: "AI 识别图片纸样中的比例尺，自动在 App 内完成实际尺寸标定，为正确尺寸的投影裁切与打印做好准备。"
   url: /services/superannuation/
 
 - title: "缝纫社区"

@@ -11,8 +11,8 @@
       "icon": "/images/grid-icons/pic_pattern.svg"
     },
     {
-      "title": "Pattern Stitching",
-      "summary": "Stitch A4, A3 size PDF patterns into full-size large patterns. Stitched patterns can be cut with a projector.",
+      "title": "AI Pattern Assembly",
+      "summary": "AI automatically joins multiple A4 pattern pages from a single file into a complete large pattern, precisely aligning the edges for projector cutting.",
       "icon": "/images/grid-icons/pic_stitching.svg"
     },
     {
@@ -21,8 +21,8 @@
       "icon": "/images/grid-icons/pic_printer.svg"
     },
     {
-      "title": "Size Calibration",
-      "summary": "Calibrate PNG, JPG, and WebP image patterns to actual size for accurate printing and projection.",
+      "title": "AI Size Calibration",
+      "summary": "AI recognizes the scale marker in a pattern image and automatically sets its real-world dimensions in the app for accurate projection and printing.",
       "icon": "/images/grid-icons/pic_communication.svg"
     },
     {
@@ -77,6 +77,13 @@
       "answers": [
         "iOS 17 or later on iPhone and iPad; Android 8.0 (API 26) or later on Android devices.",
         "Keep your system and the app up to date for the best experience and compatibility."
+      ]
+    },
+    {
+      "question": "Which AI features are available?",
+      "answers": [
+        "AI Size Calibration recognizes the scale marker in a pattern image and automatically sets its real-world dimensions in the app, ready for projector cutting.",
+        "AI Pattern Assembly automatically joins multiple A4 pattern pages from a single file into a complete large pattern, precisely aligning the edges."
       ]
     }
   ]

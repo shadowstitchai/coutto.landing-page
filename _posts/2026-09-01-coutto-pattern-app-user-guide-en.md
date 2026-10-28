@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Button Pattern User Guide"
+title: "Coutto Sew User Guide"
 date: "2026-09-01 00:00:00 +0800"
 lang: "en"
 permalink: "/en/2026/09/coutto-pattern-app-user-guide/"
@@ -26,12 +26,12 @@ order: 2
 
 ## Step 1: Calibration
 
-The Button Pattern App provides a quick way to calibrate the projected image.
+The Coutto Sew provides a quick way to calibrate the projected image.
 
 ### Quick Calibration in Two Steps
 
 - Drag the four corners of the grid in the app so that they align with the grid on the cutting mat. Continue until the projected grid and the cutting-mat grid are fully aligned.
-- Read the height and width covered by the projected grid on the cutting mat, then enter the measured length and width in the Button Pattern App.
+- Read the height and width covered by the projected grid on the cutting mat, then enter the measured length and width in the Coutto Sew.
 
 ![Aligning the projected grid with the cutting mat]({{ "/images/blog/coutto-pattern-app-user-guide/img-021.png" | relative_url }})
 
@@ -39,7 +39,7 @@ The Button Pattern App provides a quick way to calibrate the projected image.
 
 ## Step 2: Projection
 
-The Button Pattern App can project patterns onto fabric at the correct scale.
+The Coutto Sew can project patterns onto fabric at the correct scale.
 
 - **Color Inversion**: Invert the pattern colors to improve the visibility of pattern lines on different fabrics.
 - **Pattern Operations**: Easily rotate, flip and mirror patterns to suit different cutting needs.
@@ -50,7 +50,7 @@ The Button Pattern App can project patterns onto fabric at the correct scale.
 
 ## Optional: Tiling
 
-If your PDF pattern is A4 size and normally needs to be printed and assembled before use, you can use the Button Pattern App's digital tiling feature to join pattern pieces divided across several pages into complete pieces.
+If your PDF pattern is A4 size and normally needs to be printed and assembled before use, you can use the Coutto Sew's digital tiling feature to join pattern pieces divided across several pages into complete pieces.
 
 ### Complete PDF Tiling in Three Steps
 
@@ -98,4 +98,4 @@ Projector sewing projects digital patterns directly onto fabric for fast cutting
 - An active community of experienced users
 - Get help and answers to questions
 - Share experience and tips
-- Learn about updates and features of the Coutto App
+- Learn about updates and features of the Coutto Sew

@@ -12,7 +12,7 @@ permalink: /en/termsofservice/
 
 **Effective Date:** June 2026
 
-Welcome to **Coutto Pattern** ("we", "our", or "the App"). Please read these Terms of Service carefully before using our mobile application (iOS and Android), website at [coutto.app](https://coutto.app), and related services. By downloading, installing, accessing, or using the App, you agree to be bound by these Terms. If you do not agree, please do not use our services.
+Welcome to **Coutto Sew** ("we", "our", or "the App"). Please read these Terms of Service carefully before using our mobile application (iOS and Android), website at [coutto.app](https://coutto.app), and related services. By downloading, installing, accessing, or using the App, you agree to be bound by these Terms. If you do not agree, please do not use our services.
 
 <br>
 
@@ -20,7 +20,7 @@ Welcome to **Coutto Pattern** ("we", "our", or "the App"). Please read these Ter
 
 ### 1.1 Scope of Agreement
 
-These Terms of Service ("Terms") constitute a legally binding agreement between you and Coutto Pattern regarding your use of our mobile application and related services. These Terms apply to all users, including visitors, registered users, and others who access our services.
+These Terms of Service ("Terms") constitute a legally binding agreement between you and Coutto Sew regarding your use of our mobile application and related services. These Terms apply to all users, including visitors, registered users, and others who access our services.
 
 ### 1.2 Age Requirements
 
@@ -40,7 +40,7 @@ By using the App, you represent that:
 
 ### 2.1 Service Content
 
-Coutto Pattern is a mobile application for fashion designers and sewing enthusiasts, providing:
+Coutto Sew is a mobile application for fashion designers and sewing enthusiasts, providing:
 
 - Viewing and managing pattern files (PDF, SVG, DXF, PLT, and more)
 - Projector-assisted pattern cutting and size calibration

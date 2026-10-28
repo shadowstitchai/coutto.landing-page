@@ -174,4 +174,4 @@ Almost any projector can be used for sewing projection. The key is to choose one
 - An active community of experienced users
 - Get help and answers to questions
 - Share experience and tips
-- Learn about updates and features of the Coutto App
+- Learn about updates and features of the Coutto Sew

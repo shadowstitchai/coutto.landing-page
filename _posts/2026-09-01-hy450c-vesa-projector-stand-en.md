@@ -91,7 +91,7 @@ The design has been open-sourced and uploaded to Bambu Lab MakerWorld. Search fo
 
 ### If You Do Not Have a 3D Printer
 
-If there is genuine demand, Button Patterns will consider offering a printing service. Leave a comment stating that you need this VESA adapter.
+If there is genuine demand, Coutto Sew will consider offering a printing service. Leave a comment stating that you need this VESA adapter.
 
 ![MakerWorld]({{ "/images/blog/hy450c-vesa-projector-stand/img-025.png" | relative_url }})
 
@@ -106,4 +106,4 @@ If there is genuine demand, Button Patterns will consider offering a printing se
 - An active community of experienced users
 - Get help and answers to questions
 - Share experience and tips
-- Learn about updates and features of the Coutto App
+- Learn about updates and features of the Coutto Sew

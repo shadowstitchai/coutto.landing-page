@@ -90,7 +90,7 @@ order: 1
 - 切割垫
 - 投影仪支架
 - 纸镇，轮刀
-- Coutto纽扣纸样
+- 纽扣缝纫
 
 ![投影仪缝纫所需设备和工具清单]({{ "/images/blog/complete-guide-to-projector-sewing/img-053.png" | relative_url }})
 
@@ -115,4 +115,4 @@ order: 1
 - 经验丰富的用户组成的活跃社区
 - 获得帮助和问题解答
 - 分享经验和技巧
-- 了解 纽扣纸样 App 更新和功能
+- 了解 纽扣缝纫 App 更新和功能

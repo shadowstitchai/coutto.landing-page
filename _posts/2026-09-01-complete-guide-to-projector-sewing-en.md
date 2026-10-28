@@ -54,7 +54,7 @@ Correctly installing and setting up the projector is the basis for accurate patt
 
 ![Mirror Your Phone to the Projector]({{ "/images/blog/complete-guide-to-projector-sewing/img-027.png" | relative_url }})
 
-## Step 4 Use the Bear Paw Pattern App for Calibration and Projection
+## Step 4 Use the Coutto Sew for Calibration and Projection
 
 The Coutto Sew App can quickly calibrate the projected image and provides powerful pattern-management features.
 
@@ -63,13 +63,13 @@ The Coutto Sew App can quickly calibrate the projected image and provides powerf
 - **Pattern operations**: Easily rotate, flip and mirror patterns to suit different cutting needs.
 - **PDF tiling**: Supports digital assembly of Letter/A4-size PDF patterns.
 
-![Use the Bear Paw Pattern App for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-039.png" | relative_url }})
+![Use the Coutto Sew for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-039.png" | relative_url }})
 
-![Use the Bear Paw Pattern App for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-040.png" | relative_url }})
+![Use the Coutto Sew for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-040.png" | relative_url }})
 
-![Use the Bear Paw Pattern App for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-041.png" | relative_url }})
+![Use the Coutto Sew for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-041.png" | relative_url }})
 
-![Use the Bear Paw Pattern App for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-042.png" | relative_url }})
+![Use the Coutto Sew for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-042.png" | relative_url }})
 
 ## Practical Tips for Projector Sewing
 
@@ -90,7 +90,7 @@ Helping you use projector sewing more efficiently and maximize fabric utilizatio
 - Cutting mat
 - Projector mount
 - Pattern weights and rotary cutter
-- Coutto App
+- Coutto Sew
 
 ![Equipment and Tools Needed for Projector Sewing]({{ "/images/blog/complete-guide-to-projector-sewing/img-053.png" | relative_url }})
 
@@ -115,4 +115,4 @@ Projector sewing projects digital patterns directly onto fabric for fast cutting
 - An active community of experienced users
 - Get help and answers to questions
 - Share experience and tips
-- Learn about updates and features of the Coutto App
+- Learn about updates and features of the Coutto Sew

@@ -13,7 +13,7 @@ August 2026
 
 # Privacy Policy
 
-Welcome to **Coutto Pattern** ("we", "our", or "the App"). We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, store, share, and safeguard information when you use our mobile application (iOS and Android), website at [coutto.app](https://coutto.app), and related services.
+Welcome to **Coutto Sew** ("we", "our", or "the App"). We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, store, share, and safeguard information when you use our mobile application (iOS and Android), website at [coutto.app](https://coutto.app), and related services.
 
 By using the App, you acknowledge that you have read and understood this policy. If you do not agree, please do not use our services.
 
