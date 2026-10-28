@@ -67,6 +67,7 @@ sass:
 
 
 exclude:
+  - assets/css/style.scss
   - Gemfile
   - Gemfile.lock
   - node_modules
