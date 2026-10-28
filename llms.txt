@@ -1,0 +1,13 @@
+# Coutto Sew / 纽扣缝纫
+
+> An AI sewing app for projector cutting, pattern size calibration, A4 pattern assembly, printing, and pattern storage. Available on iPhone and iPad; Android is not publicly released.
+
+## Product
+- [Chinese homepage](https://coutto.app/): Features, downloads, and FAQ.
+- [English homepage](https://coutto.app/en/): Features, downloads, and FAQ.
+
+## Tutorials
+- [Chinese tutorials](https://coutto.app/tutorials/): Guides for projector sewing and using the app.
+- [English tutorials](https://coutto.app/en/tutorials/): Guides for projector sewing and using the app.
+- [Chinese user guide](https://coutto.app/zh/2026/09/coutto-pattern-app-user-guide/): Calibration and projection steps.
+- [English user guide](https://coutto.app/en/2026/09/coutto-pattern-app-user-guide/): Calibration and projection steps.

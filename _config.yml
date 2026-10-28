@@ -30,11 +30,37 @@ defaults:
       type: "services"
     values:
       layout: "service"
+      sitemap: false
   - scope:
       path: ""
       type: "team"
     values:
       layout: "team"
+      sitemap: false
+  - scope:
+      path: "about.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "contact.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "services.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "team.md"
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/open.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "designer/**/*.html"
+    values:
+      sitemap: false
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
@@ -53,5 +79,7 @@ exclude:
   - README.md
 
 ios_app_id: 6797682018
+plugins:
+  - jekyll-sitemap
 include:
   - .well-known

@@ -6,7 +6,9 @@
   <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  {% if page.translation_url %}<link rel="alternate" hreflang="{{ page.translation_lang }}" href="{{ page.translation_url | absolute_url }}" />{% endif %}
+  {% if page.translation_url %}<link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}" />
+  <link rel="alternate" hreflang="{{ page.translation_lang }}" href="{{ page.translation_url | absolute_url }}" />{% endif %}
+  <link rel="describedby" type="text/markdown" href="{{ '/llms.txt' | absolute_url }}" />
   <link rel="icon" type="image/svg+xml" href="{{ '/images/brand/ic_coutto_favicon.svg' | relative_url }}">
   <!-- Google Fonts CDN -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +24,31 @@
   <meta property="og:url" content="{{ page.url | absolute_url }}"/>
   {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}"/>{% endif %}
   {% if page.description %}<meta property="og:description" content="{{ page.description }}"/>{% endif %}
+  {% if page.layout == 'home' %}
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": {{ page.title | split: ' - ' | first | jsonify }},
+    "description": {{ page.description | jsonify }},
+    "url": {{ page.url | absolute_url | jsonify }},
+    "downloadUrl": "https://apps.apple.com/app/id6797682018",
+    "operatingSystem": "iOS 17 or later, iPadOS 17 or later",
+    "applicationCategory": "Graphics & Design",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Shadow Stitch"
+    }
+  }</script>
+  {% elsif page.layout == 'post' %}
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": {{ page.title | jsonify }},
+    "url": {{ page.url | absolute_url | jsonify }},
+    "datePublished": {{ page.date | date: '%Y-%m-%d' | jsonify }},
+    "inLanguage": {{ page.lang | jsonify }}
+  }</script>
+  {% endif %}
   <meta name="twitter:card" content="summary"/>
   {% if site.data.seo.meta_twitter_site %}<meta name="twitter:site" content="{{ site.seo.meta_twitter_site }}"/>{% endif %}
   {% if site.data.seo.meta_twitter_creator %}<meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}"/>{% endif %}
