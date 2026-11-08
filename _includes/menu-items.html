@@ -1,5 +1,6 @@
 {% assign mainmenu = site.data.menus.main | sort: 'weight' %}
 {% for item in mainmenu %}
+  {% if item.lang and item.lang != page.lang %}{% continue %}{% endif %}
   {% assign item_url = item.url %}
   {% assign item_name = item.name %}
   {% if page.lang == 'en' and page.translation_url %}

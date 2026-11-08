@@ -1,0 +1,57 @@
+@font-face { font-family: "Noto Serif CJK SC Pricing"; font-style: normal; font-weight: 900; font-display: swap; src: url("../fonts/noto-serif-sc-pricing-900.ttf?v=3") format("truetype"); }
+.page-price-design { font-family: "PingFang SC", "Microsoft YaHei", sans-serif; color: #000; font-size: 14px; line-height: 24px; }
+.page-price-design .price-main { padding-top: 60px; padding-bottom: 157px; }
+.page-price-design .price-main p { margin: 0; color: #000; font-size: 14px; line-height: 24px; }
+.price-main .row { --bs-gutter-x: 30px; row-gap: 24px; }
+.price-heading { margin-bottom: 48px; }
+.price-heading h1, .price-heading h2 { margin: 0 0 16px; font-family: "Coutto Serif", "Noto Serif SC", "Songti SC", serif; font-weight: 900; font-size: 56px; line-height: 64px; color: #D52106; }
+.price-heading h1 { display: flex; align-items: center; font-family: "Noto Serif CJK SC Pricing", "Noto Serif CJK SC", serif; font-style: normal; }
+.price-heading p { max-width: 390px; }
+.price-card { height: 100%; padding: 40px; border-radius: 32px; background: rgba(255,255,255,.75); box-shadow: inset 0 0 0 .5px rgba(0,0,0,.25); }
+.price-card.is-pro { background: rgba(255,250,248,.75); box-shadow: inset 0 0 0 .5px #D52207; }
+.price-benefits { min-height: 546px; }
+.price-benefits h2 { display: flex; align-items: center; width: 100%; font-style: normal; margin: 0 0 24px; padding-bottom: 16px; border-bottom: .5px solid rgba(0,0,0,.25); font-family: "Noto Serif CJK SC Pricing", "Noto Serif CJK SC", serif; font-size: 28px; font-weight: 900; line-height: 40px; color: #000; }
+.price-benefits.is-pro h2 { color: #D52207; border-color: #D52207; }
+.price-benefits ul { display: flex; flex-direction: column; gap: 16px; padding: 0; margin: 0; list-style: none; }
+.price-benefits li { display: flex; align-items: flex-start; gap: 8px; font-size: 14px; line-height: 24px; }
+.price-icon { display: block; flex: 0 0 24px; width: 24px; height: 24px; }
+.price-benefits li { gap: 4px; }
+.price-benefits .is-locked { color: rgba(0,0,0,.5); }
+.price-subscriptions { margin-top: 24px; }
+.price-subscription { min-height: 241px; }
+.price-subscription h2 { margin: 0 0 4px; font-family: inherit; font-size: 16px; font-weight: 600; line-height: 24px; color: #D52207; }
+.page-price-design .price-main .price-value { font-family: "Noto Serif CJK SC Pricing", "Noto Serif CJK SC", serif; font-style: normal; font-weight: 900; font-size: 28px; line-height: 40px; }
+.page-price-design .price-subscription .price-value { display: flex; align-items: center; height: 40px; color: #D52207; margin-bottom: 4px; }
+.price-subscription .price-value span { font-size: 18px; }
+.price-value span { font-size: 18px; }
+.price-line { display: flex; align-items: center; gap: 12px; }
+.price-saving { display: inline-block; flex-shrink: 0; padding: 6px 12px; border-radius: 0 16px 16px 16px; background: #D52207; color: #fff; font-size: 13px; font-weight: 600; line-height: 20px; }
+.price-download { display: flex; justify-content: center; align-items: center; min-height: 40px; margin-top: 24px; padding: 8px 12px; border-radius: 8px; background: rgba(0,0,0,.05); color: rgba(0,0,0,.75); text-decoration: none; font-size: 15px; line-height: 24px; }
+.price-download-primary { color: #fff; background: #000; font-weight: 500; }
+.price-download:hover { color: #000; background: rgba(0,0,0,.1); text-decoration: none; }
+.price-download-primary:hover { background: #333; color: #fff; }
+.price-download:focus-visible { outline: 2px solid #D52207; outline-offset: 4px; }
+.price-credits { margin-top: 96px; }
+.price-credits .price-heading { margin-bottom: 24px; }
+@media (min-width: 992px) {
+  .price-credits .price-heading p { max-width: none; }
+}
+.price-pack { min-height: 249px; padding: 30px; }
+.price-pack h3 { margin: 0 0 8px; min-height: 52px; font-family: "Noto Serif CJK SC Pricing", "Noto Serif CJK SC", serif; font-size: 18px; font-weight: 900; line-height: 52px; color: #D52207; }
+.price-pack h3 strong { display: inline-flex; align-items: center; height: 40px; font-family: "Noto Serif CJK SC Pricing", "Noto Serif CJK SC", serif; font-style: normal; font-size: 36px; font-weight: 900; line-height: 40px; color: #D52207; }
+.page-price-design .price-pack .price-unit { color: rgba(0,0,0,.5); }
+@media (max-width: 991.98px) {
+  .price-card { padding: 28px; }
+  .price-pack { padding: 24px; }
+  .price-pack .price-download { padding-left: 4px; padding-right: 4px; }
+}
+@media (max-width: 767.98px) {
+  .page-price-design .price-main { padding-top: 36px; padding-bottom: 64px; }
+  .price-heading { margin-bottom: 32px; }
+  .price-heading h1, .price-heading h2 { font-size: 40px; line-height: 52px; }
+  .price-benefits { min-height: 0; }
+  .price-card { border-radius: 24px; }
+  .price-subscription { min-height: 0; }
+  .price-credits { margin-top: 64px; }
+  .price-pack { min-height: 0; }
+}

@@ -1,4 +1,8 @@
 main:
+  - name: "价格"
+    url: "/pricing/"
+    lang: "zh-CN"
+    weight: 2
   - name: "使用教程"
     name_en: "Tutorials"
     url: "/tutorials/"

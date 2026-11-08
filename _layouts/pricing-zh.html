@@ -1,0 +1,71 @@
+---
+layout: default
+bodyClass: "page-home page-price-design"
+---
+<main class="price-main container">
+  <section aria-labelledby="pro-heading">
+    <header class="price-heading">
+      <h1 id="pro-heading">Pro 版</h1>
+      <p>Pro 版订阅期限内，高级功能无限使用。</p>
+    </header>
+    <div class="row price-comparison">
+      {% assign features = '纸样导入|纸样管理|分片打印|A4 打印|云存储空间|精准校准|纸样投影|纸样拼接|尺寸标定|DST / PES / JEF 等刺绣文件编辑' | split: '|' %}
+      {% for plan in (1..2) %}
+      <div class="col-12 col-md-6">
+        <article class="price-card price-benefits{% if plan == 1 %} is-pro{% endif %}" aria-labelledby="plan-{{ plan }}">
+          <h2 id="plan-{{ plan }}">{% if plan == 1 %}Pro 版{% else %}免费版{% endif %}</h2>
+          <ul>
+            {% for feature in features %}
+            {% assign locked = false %}
+            {% if plan == 2 and forloop.index > 5 %}{% assign locked = true %}{% endif %}
+            <li{% if locked %} class="is-locked"{% endif %}>
+              <img class="price-icon" src="{{ '/images/pricing/' | relative_url }}{% if locked %}ic_lock.svg{% elsif plan == 1 %}ic_check_red.svg{% else %}ic_check.svg{% endif %}" alt="" width="24" height="24" aria-hidden="true" />
+              <span>{{ feature }}{% if forloop.index == 5 %} {% if plan == 1 %}512M{% else %}50M{% endif %}{% endif %}{% if locked %} <span class="price-unlock">(可用积分单独解锁)</span>{% endif %}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row price-subscriptions">
+      <div class="col-12 col-md-6">
+        <article class="price-card price-subscription is-pro">
+          <h2>年付</h2>
+          <div class="price-line"><p class="price-value">168.00<span>元</span></p><span class="price-saving">立省 22%</span></div>
+          <p>折合 14.00元/月</p>
+          <a class="price-download price-download-primary" href="https://apps.apple.com/app/id6797682018">前往 纽扣缝纫 App 购买</a>
+        </article>
+      </div>
+      <div class="col-12 col-md-6">
+        <article class="price-card price-subscription">
+          <h2>月付</h2>
+          <p class="price-value">18.00<span>元</span></p>
+          <p>按月订阅，灵活安排你的创作。</p>
+          <a class="price-download" href="https://apps.apple.com/app/id6797682018">前往 纽扣缝纫 App 购买</a>
+        </article>
+      </div>
+    </div>
+  </section>
+  <section class="price-credits" aria-labelledby="credits-heading" hidden>
+    <header class="price-heading">
+      <h2 id="credits-heading">纽扣积分</h2>
+      <p>纽扣积分独立于订阅，1 个积分永久解锁 1 份纸样的高级功能。</p>
+    </header>
+    <div class="row price-packs">
+      {% assign counts = '10|50|100' | split: '|' %}
+      {% assign prices = '28.00|128.00|198.00' | split: '|' %}
+      {% assign units = '2.80|2.56|1.98' | split: '|' %}
+      {% for count in counts %}
+      <div class="col-12 col-md-4">
+        <article class="price-card price-pack">
+          <h3><strong>{{ count }}</strong> 纽扣积分</h3>
+          <p class="price-value">{{ prices[forloop.index0] }}<span>元</span></p>
+          <p class="price-unit">{{ units[forloop.index0] }}元 / 每个积分</p>
+          <a class="price-download" href="https://apps.apple.com/app/id6797682018">下载 纽扣缝纫 App</a>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</main>
