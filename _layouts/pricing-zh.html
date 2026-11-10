@@ -20,7 +20,7 @@ bodyClass: "page-home page-price-design"
             {% if plan == 2 and forloop.index > 5 %}{% assign locked = true %}{% endif %}
             <li{% if locked %} class="is-locked"{% endif %}>
               <img class="price-icon" src="{{ '/images/pricing/' | relative_url }}{% if locked %}ic_lock.svg{% elsif plan == 1 %}ic_check_red.svg{% else %}ic_check.svg{% endif %}" alt="" width="24" height="24" aria-hidden="true" />
-              <span>{{ feature }}{% if forloop.index == 5 %} {% if plan == 1 %}512M{% else %}50M{% endif %}{% endif %}{% if locked %} <span class="price-unlock">(可用积分单独解锁)</span>{% endif %}</span>
+              <span>{{ feature }}{% if forloop.index == 5 %} {% if plan == 1 %}512M{% else %}50M{% endif %}{% endif %}{% if locked %}{% if feature == '纸样投影' or feature contains 'DST' %} <span class="price-unlock">(可用积分单独解锁)</span>{% endif %}{% endif %}</span>
             </li>
             {% endfor %}
           </ul>
