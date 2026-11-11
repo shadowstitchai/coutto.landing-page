@@ -9,7 +9,7 @@ bodyClass: "page-home page-price-design"
       <p>Pro 版订阅期限内，高级功能无限使用。</p>
     </header>
     <div class="row price-comparison">
-      {% assign features = '纸样导入|纸样管理|分片打印|A4 打印|云存储空间|精准校准|纸样投影|纸样拼接|尺寸标定|DST / PES / JEF 等刺绣文件编辑' | split: '|' %}
+      {% assign features = '纸样导入|纸样管理|分片打印|A4 打印|云存储空间|精准校准|纸样拼接|尺寸标定|纸样投影|DST / PES / JEF 等刺绣文件编辑' | split: '|' %}
       {% for plan in (1..2) %}
       <div class="col-12 col-md-6">
         <article class="price-card price-benefits{% if plan == 1 %} is-pro{% endif %}" aria-labelledby="plan-{{ plan }}">
@@ -17,10 +17,10 @@ bodyClass: "page-home page-price-design"
           <ul>
             {% for feature in features %}
             {% assign locked = false %}
-            {% if plan == 2 and forloop.index > 5 %}{% assign locked = true %}{% endif %}
+            {% if plan == 2 %}{% if feature == '纸样投影' or feature contains 'DST' %}{% assign locked = true %}{% endif %}{% endif %}
             <li{% if locked %} class="is-locked"{% endif %}>
               <img class="price-icon" src="{{ '/images/pricing/' | relative_url }}{% if locked %}ic_lock.svg{% elsif plan == 1 %}ic_check_red.svg{% else %}ic_check.svg{% endif %}" alt="" width="24" height="24" aria-hidden="true" />
-              <span>{{ feature }}{% if forloop.index == 5 %} {% if plan == 1 %}512M{% else %}50M{% endif %}{% endif %}{% if locked %}{% if feature == '纸样投影' or feature contains 'DST' %} <span class="price-unlock">(可用积分单独解锁)</span>{% endif %}{% endif %}</span>
+              <span>{{ feature }}{% if forloop.index == 5 %} {% if plan == 1 %}512M{% else %}50M{% endif %}{% endif %}{% if locked %} <span class="price-unlock">(可用积分单独解锁)</span>{% endif %}</span>
             </li>
             {% endfor %}
           </ul>
