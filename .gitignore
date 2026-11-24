@@ -11,6 +11,17 @@ _site/
 Gemfile.lock
 **/Gemfile.lock
 
+# Bundler
+.bundle/
+vendor/
+
+# OSS deploy
+.env
+.ossutilconfig
+.jekyll-prod.override.yml
+bin/ossutil
+bin/ossutil-*
+
 # Temporary files
 tmp
 .DS_Store

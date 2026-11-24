@@ -14,4 +14,6 @@ Run `bundle install` and `bundle exec jekyll serve` for local development.
 
 Keep `url: https://coutto.app`, an empty `baseurl`, and the `CNAME` file. Include `.well-known` in the build. The production site allows indexing.
 
+Deploy the OSS copy of this site to https://coutto.cn with `./scripts/setup.sh` once, then `./scripts/deploy-oss.sh`. That build overrides `url` to `https://coutto.cn` and does not change the GitHub Pages config. Put the AccessKey in `.env` (see `.env.example`).
+
 The pre-migration version is preserved by Git tag `backup/before-landing-refresh-2026-10-22`.

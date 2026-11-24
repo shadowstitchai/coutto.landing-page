@@ -78,6 +78,8 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+  - scripts
+  - bin
 
 ios_app_id: 6797682018
 plugins:
