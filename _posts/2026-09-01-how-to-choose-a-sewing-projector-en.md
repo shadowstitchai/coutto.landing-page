@@ -6,12 +6,12 @@ lang: "en"
 permalink: "/en/2026/09/how-to-choose-a-sewing-projector/"
 translation_url: "/zh/2026/09/how-to-choose-a-sewing-projector/"
 translation_lang: "zh-CN"
-image: "/images/blog/how-to-choose-a-sewing-projector/img-006.png"
+image: "/images/blog/how-to-choose-a-sewing-projector/img-006.avif"
 description: "Learn what to look for in a sewing projector, from throw ratio, resolution and brightness to size and mounting options. Explore the differences between short-throw and ultra-short-throw setups, distinguish native resolution from supported input resolution, and check screw mounts and casting features before buying. The guide also introduces several projector models to help you compare equipment for your workspace and connection needs."
 order: 3
 ---
 
-![Sewing projector setup]({{ "/images/blog/how-to-choose-a-sewing-projector/img-006.png" | relative_url }})
+![Sewing projector setup]({{ "/images/blog/how-to-choose-a-sewing-projector/img-006.avif" | relative_url }})
 
 ## What Is Projector Sewing?
 
@@ -23,9 +23,9 @@ Projector sewing is an innovative sewing technique that projects digital pattern
 - **Eco-Friendly and Economical**: Reduce paper waste and lower material costs.
 - **Save Space**: No longer necessary to store large quantities of paper patterns.
 
-![Digital pattern projection]({{ "/images/blog/how-to-choose-a-sewing-projector/img-012.png" | relative_url }})
+![Digital pattern projection]({{ "/images/blog/how-to-choose-a-sewing-projector/img-012.avif" | relative_url }})
 
-![Projector sewing workspace]({{ "/images/blog/how-to-choose-a-sewing-projector/img-005.png" | relative_url }})
+![Projector sewing workspace]({{ "/images/blog/how-to-choose-a-sewing-projector/img-005.avif" | relative_url }})
 
 ## Throw Ratio
 
@@ -43,7 +43,7 @@ A short-throw projector with a throw ratio below 1.0:1 is recommended. With a st
 - The projector is more stable after installation
 - The projector power cable is easier to connect
 
-![Short-throw projection]({{ "/images/blog/how-to-choose-a-sewing-projector/img-016.png" | relative_url }})
+![Short-throw projection]({{ "/images/blog/how-to-choose-a-sewing-projector/img-016.avif" | relative_url }})
 
 ### If the Budget Allows, Choose an Ultra-Short-Throw Projector
 
@@ -61,13 +61,13 @@ An ultra-short-throw projector with a 0.3:1 throw ratio is, of course, better. I
 
 ### Huishi NanoPro
 
-![Huishi NanoPro]({{ "/images/blog/how-to-choose-a-sewing-projector/img-023.png" | relative_url }})
+![Huishi NanoPro]({{ "/images/blog/how-to-choose-a-sewing-projector/img-023.avif" | relative_url }})
 
 ### Epson 470/595Wi
 
-![Epson 470/595Wi]({{ "/images/blog/how-to-choose-a-sewing-projector/img-020.png" | relative_url }})
+![Epson 470/595Wi]({{ "/images/blog/how-to-choose-a-sewing-projector/img-020.avif" | relative_url }})
 
-![Ultra-short-throw tabletop projection]({{ "/images/blog/how-to-choose-a-sewing-projector/img-019.png" | relative_url }})
+![Ultra-short-throw tabletop projection]({{ "/images/blog/how-to-choose-a-sewing-projector/img-019.avif" | relative_url }})
 
 ## Resolution and Brightness
 
@@ -85,9 +85,9 @@ Be sure to ask about the optical resolution. Some manufacturers state that a pro
 
 Greater brightness produces better results under strong ambient light. However, there is no need to pursue extremely high brightness. If the image is too dim, you can turn off the lights. Brighter projectors are also more expensive.
 
-![Projected grid clarity]({{ "/images/blog/how-to-choose-a-sewing-projector/img-027.png" | relative_url }})
+![Projected grid clarity]({{ "/images/blog/how-to-choose-a-sewing-projector/img-027.avif" | relative_url }})
 
-![Projection in a darkened room]({{ "/images/blog/how-to-choose-a-sewing-projector/img-026.png" | relative_url }})
+![Projection in a darkened room]({{ "/images/blog/how-to-choose-a-sewing-projector/img-026.avif" | relative_url }})
 
 ## Size and Mounting Interface
 
@@ -95,11 +95,11 @@ Greater brightness produces better results under strong ambient light. However, 
 
 Compact projectors are easier to install. Whether ceiling-mounted or installed on a stand, make sure you understand the stand connector. If the stand uses a 1/4-inch screw, the projector needs a 1/4-inch screw hole.
 
-![Projector screw hole and mounting method]({{ "/images/blog/how-to-choose-a-sewing-projector/img-030.png" | relative_url }})
+![Projector screw hole and mounting method]({{ "/images/blog/how-to-choose-a-sewing-projector/img-030.avif" | relative_url }})
 
-![Compact projector installation]({{ "/images/blog/how-to-choose-a-sewing-projector/img-034.png" | relative_url }})
+![Compact projector installation]({{ "/images/blog/how-to-choose-a-sewing-projector/img-034.avif" | relative_url }})
 
-![Ceiling-mounted projector]({{ "/images/blog/how-to-choose-a-sewing-projector/img-031.png" | relative_url }})
+![Ceiling-mounted projector]({{ "/images/blog/how-to-choose-a-sewing-projector/img-031.avif" | relative_url }})
 
 ## Screen-Casting Capability
 
@@ -121,9 +121,9 @@ Ask customer service whether free casting software is included.
 
 **HDMI**
 
-![HDMI cable]({{ "/images/blog/how-to-choose-a-sewing-projector/img-042.jpg" | relative_url }})
+![HDMI cable]({{ "/images/blog/how-to-choose-a-sewing-projector/img-042.avif" | relative_url }})
 
-![Wireless casting from a phone]({{ "/images/blog/how-to-choose-a-sewing-projector/img-037.png" | relative_url }})
+![Wireless casting from a phone]({{ "/images/blog/how-to-choose-a-sewing-projector/img-037.avif" | relative_url }})
 
 ## Summary
 
@@ -136,7 +136,7 @@ Almost any projector can be used for sewing projection. The key is to choose one
 - **Compact and Easy to Install**: Compact projectors are easier to install. If the stand uses a 1/4-inch screw, the projector should ideally have a 1/4-inch screw hole.
 - **Supports Wired and Wireless Casting**: The projector should ideally support both wireless and wired casting so that you can choose the more suitable method in different situations.
 
-![Throw-distance illustration]({{ "/images/blog/how-to-choose-a-sewing-projector/img-050.png" | relative_url }})
+![Throw-distance illustration]({{ "/images/blog/how-to-choose-a-sewing-projector/img-050.avif" | relative_url }})
 
 ## Recommended Sewing Projectors
 
@@ -165,7 +165,7 @@ Almost any projector can be used for sewing projection. The key is to choose one
 - 360-degree suction-cup installation; compact at only 280 grams
 - Type-C video port; the system supports screen casting
 
-![Magcubic projector]({{ "/images/blog/how-to-choose-a-sewing-projector/img-056.png" | relative_url }})
+![Magcubic projector]({{ "/images/blog/how-to-choose-a-sewing-projector/img-056.avif" | relative_url }})
 
 ## Join the Coutto Sew Community
 

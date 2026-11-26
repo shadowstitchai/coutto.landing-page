@@ -6,14 +6,14 @@ lang: "en"
 permalink: "/en/2026/09/complete-guide-to-projector-sewing/"
 translation_url: "/zh/2026/09/complete-guide-to-projector-sewing/"
 translation_lang: "zh-CN"
-image: "/images/blog/complete-guide-to-projector-sewing/img-002.png"
+image: "/images/blog/complete-guide-to-projector-sewing/img-002.avif"
 description: "Get started with projector sewing in four steps: choose a projector, set it up, mirror your phone, then calibrate and project your patterns. Learn about throw ratio and resolution, a flat cutting surface, focus and connection methods, then explore calibration, color inversion and pattern controls. Practical tips cover cutting tools, fabric weights and pattern placement, with an equipment checklist to help you prepare your workspace."
 order: 1
 ---
 
 ## Start Your Projector Sewing Journey in Four Steps
 
-![投影仪缝纫裁剪示例]({{ "/images/blog/complete-guide-to-projector-sewing/img-002.png" | relative_url }})
+![投影仪缝纫裁剪示例]({{ "/images/blog/complete-guide-to-projector-sewing/img-002.avif" | relative_url }})
 
 ## Step 1: Choose the Right Projector
 
@@ -24,9 +24,9 @@ Almost any projector can be used for sewing projection. The key is to choose a p
 - **Compact**: Compact projectors are easier to install. If the mount connector uses a 1/4-inch screw, the projector should ideally have a 1/4-inch screw hole.
 - **Inexpensive**: Do not buy a high-end model. Pattern graphics are simple, and an entry-level projector costing a few hundred yuan can meet the needs of pattern projection.
 
-![Choose the Right Projector]({{ "/images/blog/complete-guide-to-projector-sewing/img-000.png" | relative_url }})
+![Choose the Right Projector]({{ "/images/blog/complete-guide-to-projector-sewing/img-000.avif" | relative_url }})
 
-![Choose the Right Projector]({{ "/images/blog/complete-guide-to-projector-sewing/img-012.png" | relative_url }})
+![Choose the Right Projector]({{ "/images/blog/complete-guide-to-projector-sewing/img-012.avif" | relative_url }})
 
 ## Step 2 Install and Set Up the Projector
 
@@ -39,9 +39,9 @@ Correctly installing and setting up the projector is the basis for accurate patt
 - **Project vertically to avoid image distortion**: Try to position the projector perpendicular to the tabletop so that the image is closer to a rectangle. Although angled projection can be corrected, it can still cause distortion around the projection area. Avoid the projector’s automatic keystone correction because it changes the calibration result. After powering on, as long as the projector position is not changed, manual keystone correction only needs to be performed once.
 - **The projection surface must be flat**: The cutting surface must be flat; otherwise, straight lines will be distorted. Avoid uneven surfaces.
 
-![Install and Set Up the Projector]({{ "/images/blog/complete-guide-to-projector-sewing/img-020.png" | relative_url }})
+![Install and Set Up the Projector]({{ "/images/blog/complete-guide-to-projector-sewing/img-020.avif" | relative_url }})
 
-![Install and Set Up the Projector]({{ "/images/blog/complete-guide-to-projector-sewing/img-022.png" | relative_url }})
+![Install and Set Up the Projector]({{ "/images/blog/complete-guide-to-projector-sewing/img-022.avif" | relative_url }})
 
 ## Step 3 Mirror Your Phone to the Projector
 
@@ -50,9 +50,9 @@ Correctly installing and setting up the projector is the basis for accurate patt
 - **Wired connection**: Connect with an HDMI cable. The connection is stable and reliable, and the signal transmission quality is high, making it suitable for long working sessions.
 - **Wireless connection**: Some projectors support wireless casting, such as Screen Mirroring AirPlay on iOS and Chromecast on Android. Wireless casting is flexible and convenient.
 
-![Mirror Your Phone to the Projector]({{ "/images/blog/complete-guide-to-projector-sewing/img-025.jpg" | relative_url }})
+![Mirror Your Phone to the Projector]({{ "/images/blog/complete-guide-to-projector-sewing/img-025.avif" | relative_url }})
 
-![Mirror Your Phone to the Projector]({{ "/images/blog/complete-guide-to-projector-sewing/img-027.png" | relative_url }})
+![Mirror Your Phone to the Projector]({{ "/images/blog/complete-guide-to-projector-sewing/img-027.avif" | relative_url }})
 
 ## Step 4 Use the Coutto Sew for Calibration and Projection
 
@@ -63,13 +63,13 @@ The Coutto Sew App can quickly calibrate the projected image and provides powerf
 - **Pattern operations**: Easily rotate, flip and mirror patterns to suit different cutting needs.
 - **PDF tiling**: Supports digital assembly of Letter/A4-size PDF patterns.
 
-![Use the Coutto Sew for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-039.png" | relative_url }})
+![Use the Coutto Sew for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-039.avif" | relative_url }})
 
-![Use the Coutto Sew for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-040.png" | relative_url }})
+![Use the Coutto Sew for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-040.avif" | relative_url }})
 
-![Use the Coutto Sew for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-041.png" | relative_url }})
+![Use the Coutto Sew for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-041.avif" | relative_url }})
 
-![Use the Coutto Sew for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-042.png" | relative_url }})
+![Use the Coutto Sew for Calibration and Projection]({{ "/images/blog/complete-guide-to-projector-sewing/img-042.avif" | relative_url }})
 
 ## Practical Tips for Projector Sewing
 
@@ -80,9 +80,9 @@ Helping you use projector sewing more efficiently and maximize fabric utilizatio
 - **Puzzle-style cutting**: Arrange pattern pieces intelligently so that they fit closely together and waste less fabric.
 - **Securing the fabric**: Use weights, such as pattern weights, to hold the fabric down and keep it stable during projection and cutting.
 
-![Practical Tips for Projector Sewing]({{ "/images/blog/complete-guide-to-projector-sewing/img-052.png" | relative_url }})
+![Practical Tips for Projector Sewing]({{ "/images/blog/complete-guide-to-projector-sewing/img-052.avif" | relative_url }})
 
-![Practical Tips for Projector Sewing]({{ "/images/blog/complete-guide-to-projector-sewing/img-051.png" | relative_url }})
+![Practical Tips for Projector Sewing]({{ "/images/blog/complete-guide-to-projector-sewing/img-051.avif" | relative_url }})
 
 ## Equipment and Tools Needed for Projector Sewing
 
@@ -92,7 +92,7 @@ Helping you use projector sewing more efficiently and maximize fabric utilizatio
 - Pattern weights and rotary cutter
 - Coutto Sew
 
-![Equipment and Tools Needed for Projector Sewing]({{ "/images/blog/complete-guide-to-projector-sewing/img-053.png" | relative_url }})
+![Equipment and Tools Needed for Projector Sewing]({{ "/images/blog/complete-guide-to-projector-sewing/img-053.avif" | relative_url }})
 
 ## Summary: Projector Sewing Makes Sewing Easier
 
@@ -104,9 +104,9 @@ Projector sewing projects digital patterns directly onto fabric for fast cutting
 - **Eco-friendly and economical**: Reduce paper waste and lower material costs.
 - **Save space**: No longer necessary to store large quantities of paper patterns.
 
-![Projector Sewing Makes Sewing Easier]({{ "/images/blog/complete-guide-to-projector-sewing/img-055.png" | relative_url }})
+![Projector Sewing Makes Sewing Easier]({{ "/images/blog/complete-guide-to-projector-sewing/img-055.avif" | relative_url }})
 
-![Projector Sewing Makes Sewing Easier]({{ "/images/blog/complete-guide-to-projector-sewing/img-054.png" | relative_url }})
+![Projector Sewing Makes Sewing Easier]({{ "/images/blog/complete-guide-to-projector-sewing/img-054.avif" | relative_url }})
 
 ## Join the Coutto Sew Community
 

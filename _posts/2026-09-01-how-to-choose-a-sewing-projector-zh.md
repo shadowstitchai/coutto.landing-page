@@ -6,12 +6,12 @@ lang: "zh-CN"
 permalink: "/zh/2026/09/how-to-choose-a-sewing-projector/"
 translation_url: "/en/2026/09/how-to-choose-a-sewing-projector/"
 translation_lang: "en"
-image: "/images/blog/how-to-choose-a-sewing-projector/img-006.png"
+image: "/images/blog/how-to-choose-a-sewing-projector/img-006.avif"
 description: "从投射比、分辨率、亮度到尺寸和安装接口，了解选择缝纫投影仪时需要关注的要点。本文说明短焦与超短焦投影仪的安装差异、如何区分光学分辨率与兼容分辨率，以及购买前应确认的螺丝孔和投屏功能，并介绍几款投影仪的参数，帮助你结合桌面空间、支架条件和有线或无线连接需求选择设备。"
 order: 3
 ---
 
-![缝纫投影仪使用场景]({{ "/images/blog/how-to-choose-a-sewing-projector/img-006.png" | relative_url }})
+![缝纫投影仪使用场景]({{ "/images/blog/how-to-choose-a-sewing-projector/img-006.avif" | relative_url }})
 
 ## 投影仪缝纫是什么?
 
@@ -23,9 +23,9 @@ order: 3
 - **环保经济**：减少纸张浪费，降低材料成本
 - **空间节省**：不再需要存储大量纸质纸样
 
-![数字纸样投影]({{ "/images/blog/how-to-choose-a-sewing-projector/img-012.png" | relative_url }})
+![数字纸样投影]({{ "/images/blog/how-to-choose-a-sewing-projector/img-012.avif" | relative_url }})
 
-![投影仪缝纫工作区]({{ "/images/blog/how-to-choose-a-sewing-projector/img-005.png" | relative_url }})
+![投影仪缝纫工作区]({{ "/images/blog/how-to-choose-a-sewing-projector/img-005.avif" | relative_url }})
 
 ## 投射比
 
@@ -43,7 +43,7 @@ order: 3
 - 投影仪安装后更稳定
 - 投影仪电源线更容易接
 
-![短焦距投影效果]({{ "/images/blog/how-to-choose-a-sewing-projector/img-016.png" | relative_url }})
+![短焦距投影效果]({{ "/images/blog/how-to-choose-a-sewing-projector/img-016.avif" | relative_url }})
 
 ### 预算够，超短焦距投影仪
 
@@ -61,13 +61,13 @@ order: 3
 
 ### 慧氏 NanoPro
 
-![慧氏NanoPro]({{ "/images/blog/how-to-choose-a-sewing-projector/img-023.png" | relative_url }})
+![慧氏NanoPro]({{ "/images/blog/how-to-choose-a-sewing-projector/img-023.avif" | relative_url }})
 
 ### Epson 470/595Wi
 
-![Epson 470/595Wi]({{ "/images/blog/how-to-choose-a-sewing-projector/img-020.png" | relative_url }})
+![Epson 470/595Wi]({{ "/images/blog/how-to-choose-a-sewing-projector/img-020.avif" | relative_url }})
 
-![超短焦距桌面投影]({{ "/images/blog/how-to-choose-a-sewing-projector/img-019.png" | relative_url }})
+![超短焦距桌面投影]({{ "/images/blog/how-to-choose-a-sewing-projector/img-019.avif" | relative_url }})
 
 ## 分辨率和亮度
 
@@ -85,9 +85,9 @@ order: 3
 
 亮度越亮，在强光下表现更好。但不用追求太高亮度。实在太暗可以关灯。亮度高的投影仪价格也更贵。
 
-![投影网格清晰度]({{ "/images/blog/how-to-choose-a-sewing-projector/img-027.png" | relative_url }})
+![投影网格清晰度]({{ "/images/blog/how-to-choose-a-sewing-projector/img-027.avif" | relative_url }})
 
-![暗光下的投影效果]({{ "/images/blog/how-to-choose-a-sewing-projector/img-026.png" | relative_url }})
+![暗光下的投影效果]({{ "/images/blog/how-to-choose-a-sewing-projector/img-026.avif" | relative_url }})
 
 ## 尺寸和安装接口
 
@@ -95,11 +95,11 @@ order: 3
 
 小型投影仪更好安装。无论是顶装，还是支架安装，了解清楚支架接头。如果支架接头是1/4英寸螺丝头，那投影仪就需要带1/4英寸螺丝孔。
 
-![投影仪螺丝孔与安装方式]({{ "/images/blog/how-to-choose-a-sewing-projector/img-030.png" | relative_url }})
+![投影仪螺丝孔与安装方式]({{ "/images/blog/how-to-choose-a-sewing-projector/img-030.avif" | relative_url }})
 
-![小型投影仪安装示例]({{ "/images/blog/how-to-choose-a-sewing-projector/img-034.png" | relative_url }})
+![小型投影仪安装示例]({{ "/images/blog/how-to-choose-a-sewing-projector/img-034.avif" | relative_url }})
 
-![投影仪顶装示例]({{ "/images/blog/how-to-choose-a-sewing-projector/img-031.png" | relative_url }})
+![投影仪顶装示例]({{ "/images/blog/how-to-choose-a-sewing-projector/img-031.avif" | relative_url }})
 
 ## 有投屏功能
 
@@ -121,9 +121,9 @@ order: 3
 
 **HDMI**
 
-![]({{ "/images/blog/how-to-choose-a-sewing-projector/img-042.jpg" | relative_url }})
+![]({{ "/images/blog/how-to-choose-a-sewing-projector/img-042.avif" | relative_url }})
 
-![手机无线投屏]({{ "/images/blog/how-to-choose-a-sewing-projector/img-037.png" | relative_url }})
+![手机无线投屏]({{ "/images/blog/how-to-choose-a-sewing-projector/img-037.avif" | relative_url }})
 
 ## 总结
 
@@ -136,7 +136,7 @@ order: 3
 - **小型好安装**：小型投影仪更好安装。如果支架接头是1/4螺丝头，那投影仪就最好带1/4螺丝孔。
 - **支持有线和无线投屏**：投影仪最好同时支持无线和有线投屏，这样可以在不同的场景下选择更合适的投屏方式。
 
-![投射距离示意]({{ "/images/blog/how-to-choose-a-sewing-projector/img-050.png" | relative_url }})
+![投射距离示意]({{ "/images/blog/how-to-choose-a-sewing-projector/img-050.avif" | relative_url }})
 
 ## 推荐缝纫投影仪
 
@@ -165,7 +165,7 @@ order: 3
 - 360吸盘安装，足够小巧，仅280克
 - Type-c视频接口，系统支持投屏
 
-![Magcubic 投影仪]({{ "/images/blog/how-to-choose-a-sewing-projector/img-056.png" | relative_url }})
+![Magcubic 投影仪]({{ "/images/blog/how-to-choose-a-sewing-projector/img-056.avif" | relative_url }})
 
 ## 欢迎加入纽扣缝纫群
 

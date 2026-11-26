@@ -6,7 +6,7 @@ lang: "en"
 permalink: "/en/2026/09/coutto-pattern-app-user-guide/"
 translation_url: "/zh/2026/09/coutto-pattern-app-user-guide/"
 translation_lang: "zh-CN"
-image: "/images/blog/coutto-pattern-app-user-guide/img-021.png"
+image: "/images/blog/coutto-pattern-app-user-guide/img-021.avif"
 description: "Project digital patterns onto fabric at the correct scale with calibration and projection. Start by mirroring your phone, align the projected grid with your cutting mat, and enter the measured dimensions. Explore color inversion, rotation and mirroring, then follow the steps for digitally tiling A4 PDF patterns. Before cutting, review the scale, lighting, cutting tools and fabric weights to keep your setup ready for use."
 order: 2
 ---
@@ -20,9 +20,9 @@ order: 2
 - **Wired Connection**: Connect with an HDMI cable. The connection is stable and reliable, and the signal transmission quality is high, making it suitable for long working sessions.
 - **Wireless Connection**: Some projectors support wireless casting, such as Screen Mirroring AirPlay on iOS and Chromecast on Android. Wireless casting is flexible and convenient.
 
-![Wired HDMI connection]({{ "/images/blog/coutto-pattern-app-user-guide/img-012.png" | relative_url }})
+![Wired HDMI connection]({{ "/images/blog/coutto-pattern-app-user-guide/img-012.avif" | relative_url }})
 
-![Wireless casting from a phone]({{ "/images/blog/coutto-pattern-app-user-guide/img-014.png" | relative_url }})
+![Wireless casting from a phone]({{ "/images/blog/coutto-pattern-app-user-guide/img-014.avif" | relative_url }})
 
 ## Step 1: Calibration
 
@@ -33,9 +33,9 @@ The Coutto Sew provides a quick way to calibrate the projected image.
 - Drag the four corners of the grid in the app so that they align with the grid on the cutting mat. Continue until the projected grid and the cutting-mat grid are fully aligned.
 - Read the height and width covered by the projected grid on the cutting mat, then enter the measured length and width in the Coutto Sew.
 
-![Aligning the projected grid with the cutting mat]({{ "/images/blog/coutto-pattern-app-user-guide/img-021.png" | relative_url }})
+![Aligning the projected grid with the cutting mat]({{ "/images/blog/coutto-pattern-app-user-guide/img-021.avif" | relative_url }})
 
-![Calibration interface in the app]({{ "/images/blog/coutto-pattern-app-user-guide/img-020.png" | relative_url }})
+![Calibration interface in the app]({{ "/images/blog/coutto-pattern-app-user-guide/img-020.avif" | relative_url }})
 
 ## Step 2: Projection
 
@@ -44,9 +44,9 @@ The Coutto Sew can project patterns onto fabric at the correct scale.
 - **Color Inversion**: Invert the pattern colors to improve the visibility of pattern lines on different fabrics.
 - **Pattern Operations**: Easily rotate, flip and mirror patterns to suit different cutting needs.
 
-![Pattern projected onto fabric]({{ "/images/blog/coutto-pattern-app-user-guide/img-027.png" | relative_url }})
+![Pattern projected onto fabric]({{ "/images/blog/coutto-pattern-app-user-guide/img-027.avif" | relative_url }})
 
-![Pattern operations in the app]({{ "/images/blog/coutto-pattern-app-user-guide/img-026.png" | relative_url }})
+![Pattern operations in the app]({{ "/images/blog/coutto-pattern-app-user-guide/img-026.avif" | relative_url }})
 
 ## Optional: Tiling
 
@@ -58,9 +58,9 @@ If your PDF pattern is A4 size and normally needs to be printed and assembled be
 2. If necessary, insert blank pages to align the assembled pattern pieces.
 3. Adjust the vertical and horizontal overlap between pieces so that they align.
 
-![PDF pattern tiling example one]({{ "/images/blog/coutto-pattern-app-user-guide/img-030.png" | relative_url }})
+![PDF pattern tiling example one]({{ "/images/blog/coutto-pattern-app-user-guide/img-030.avif" | relative_url }})
 
-![PDF pattern tiling example two]({{ "/images/blog/coutto-pattern-app-user-guide/img-031.png" | relative_url }})
+![PDF pattern tiling example two]({{ "/images/blog/coutto-pattern-app-user-guide/img-031.avif" | relative_url }})
 
 ## Finally: Cutting
 
@@ -73,9 +73,9 @@ Cut the fabric along the pattern lines projected onto it.
 - **Use a Sharp Cutting Tool**: Cut with a rotary cutter or compact electric scissors.
 - **Hold the Fabric Firmly**: Use pattern weights to hold down the fabric and ensure that it does not move.
 
-![Cutting with a rotary cutter]({{ "/images/blog/coutto-pattern-app-user-guide/img-032.png" | relative_url }})
+![Cutting with a rotary cutter]({{ "/images/blog/coutto-pattern-app-user-guide/img-032.avif" | relative_url }})
 
-![Cutting fabric along projected lines]({{ "/images/blog/coutto-pattern-app-user-guide/img-033.png" | relative_url }})
+![Cutting fabric along projected lines]({{ "/images/blog/coutto-pattern-app-user-guide/img-033.avif" | relative_url }})
 
 ## Summary: Projector Sewing Makes Sewing Easier
 
@@ -87,9 +87,9 @@ Projector sewing projects digital patterns directly onto fabric for fast cutting
 - **Eco-Friendly and Economical**: Reduce paper waste and lower material costs.
 - **Save Space**: No longer necessary to store large quantities of paper patterns.
 
-![Projector sewing workspace]({{ "/images/blog/coutto-pattern-app-user-guide/img-034.png" | relative_url }})
+![Projector sewing workspace]({{ "/images/blog/coutto-pattern-app-user-guide/img-034.avif" | relative_url }})
 
-![Digital pattern projection]({{ "/images/blog/coutto-pattern-app-user-guide/img-035.png" | relative_url }})
+![Digital pattern projection]({{ "/images/blog/coutto-pattern-app-user-guide/img-035.avif" | relative_url }})
 
 ## Join the Coutto Sew Community
 
