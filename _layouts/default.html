@@ -3,13 +3,15 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="baidu-site-verification" content="codeva-9xJJk7YtR1" />
   <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% if page.translation_url %}<link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}" />
   <link rel="alternate" hreflang="{{ page.translation_lang }}" href="{{ page.translation_url | absolute_url }}" />{% endif %}
   <link rel="describedby" type="text/markdown" href="{{ '/llms.txt' | absolute_url }}" />
-  <link rel="icon" type="image/svg+xml" href="{{ '/images/brand/ic_coutto_favicon.svg' | relative_url }}">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}?v={{ site.time | date: '%s' }}" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32.png' | relative_url }}?v={{ site.time | date: '%s' }}">
   <!-- Google Fonts CDN -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
