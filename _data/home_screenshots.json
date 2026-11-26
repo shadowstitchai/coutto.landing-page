@@ -1,44 +1,62 @@
 [
   {
-    "file": "zh-Hans/02-calibrate.png",
-    "alt": "投影仪校准与真实尺寸裁切",
-    "alt_en": "Projector calibration and actual-size fabric cutting",
-    "file_en": "en/02-calibrate.png"
+    "alt": "我的纸样",
+    "alt_en": "My Patterns",
+    "file": "zh-Hans/01-my-patterns.webp",
+    "file_en": "en/01-my-patterns.webp"
   },
   {
-    "file": "zh-Hans/03-size-setting.png",
-    "alt": "图片纸样实际尺寸标定",
-    "alt_en": "Image pattern size calibration",
-    "file_en": "en/03-size-setting.png"
+    "alt": "投影与裁切",
+    "alt_en": "Project and Cut",
+    "file": "zh-Hans/02-project-cut.webp",
+    "file_en": "en/02-project-cut.webp"
   },
   {
-    "file": "zh-Hans/04-my-library.png",
-    "alt": "多种格式纸样管理与存储",
-    "alt_en": "Pattern management and storage",
-    "file_en": "en/04-my-library.png"
+    "alt": "PLT 纸样详情",
+    "alt_en": "PLT Pattern Details",
+    "file": "zh-Hans/03-plt-pattern-detail.webp",
+    "file_en": "en/03-plt-pattern-detail.webp"
   },
   {
-    "file": "zh-Hans/05-splicing-pattern.png",
-    "alt": "A4 纸样拼接",
-    "alt_en": "A4 pattern stitching",
-    "file_en": "en/05-splicing-pattern.png"
+    "alt": "投影校准",
+    "alt_en": "Projector Calibration",
+    "file": "zh-Hans/04-calibration.webp",
+    "file_en": "en/04-calibration.webp"
   },
   {
-    "file": "zh-Hans/06-print.png",
-    "alt": "大尺寸纸样分片打印",
-    "alt_en": "Large pattern tiled printing",
-    "file_en": "en/06-print.png"
+    "alt": "纸样拼接",
+    "alt_en": "Pattern Splicing",
+    "file": "zh-Hans/05-splicing-pattern.webp",
+    "file_en": "en/05-splicing-pattern.webp"
   },
   {
-    "file": "zh-Hans/07-embroidery-vr-preview.png",
-    "alt": "AR 实景刺绣预览与格式转换",
-    "alt_en": "AR embroidery preview and format conversion",
-    "file_en": "en/07-embroidery-vr-preview.png"
+    "alt": "纸样打印",
+    "alt_en": "Pattern Printing",
+    "file": "zh-Hans/06-print.webp",
+    "file_en": "en/06-print.webp"
   },
   {
-    "file": "zh-Hans/08-tutorials.png",
-    "alt": "纸样教程与缝纫交流",
-    "alt_en": "Sewing tutorials and community",
-    "file_en": "en/08-tutorials.png"
+    "alt": "尺寸标定",
+    "alt_en": "Size Calibration",
+    "file": "zh-Hans/07-size-setting.webp",
+    "file_en": "en/07-size-setting.webp"
+  },
+  {
+    "alt": "刺绣实景预览",
+    "alt_en": "Embroidery Preview",
+    "file": "zh-Hans/08-embroidery-vr-preview.webp",
+    "file_en": "en/08-embroidery-vr-preview.webp"
+  },
+  {
+    "alt": "使用教程",
+    "alt_en": "Tutorials",
+    "file": "zh-Hans/09-tutorials.webp",
+    "file_en": "en/09-tutorials.webp"
+  },
+  {
+    "alt": "用户评价",
+    "alt_en": "User Reviews",
+    "file": "zh-Hans/10-reviews.webp",
+    "file_en": "en/10-reviews.webp"
   }
 ]
