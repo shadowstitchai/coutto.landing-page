@@ -4,12 +4,9 @@ layout: home
 lang: zh-CN
 translation_url: /en/
 translation_lang: en
-description: 全能 AI 缝纫工具，投影仪裁切、拼接、打印、管理存储纸样，一个 App 全搞定。
-intro_image: "images/illustrations/head.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: false
+description: 纸样投影仪裁切和图纸库云备份。PLT / DXF / PDF 直接看，真实尺寸直接裁布。拼接，打印，备份，缝纫纸样一站搞定！
 ---
 
 # 纽扣缝纫
 
-全能 AI 缝纫工具，投影仪裁切、拼接、打印、管理存储纸样，一个 App 全搞定。
+纸样投影仪裁切和图纸库云备份。PLT / DXF / PDF 直接看，真实尺寸直接裁布。拼接，打印，备份，缝纫纸样一站搞定！

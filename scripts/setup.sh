@@ -67,11 +67,16 @@ cd "$ROOT"
 bundle config set --local path vendor/bundle
 bundle install
 
-if [[ ! -f "$ROOT/.env" ]]; then
+# CI injects the AccessKey. Do not drop a blank .env on top of it; deploy-oss.sh would source that file.
+if [[ ! -f "$ROOT/.env" && -z "${OSS_ACCESS_KEY_ID:-}" ]]; then
   cp "$ROOT/.env.example" "$ROOT/.env"
   echo ""
   echo "Created .env from .env.example — edit it with your OSS credentials before deploying."
 fi
 
 echo ""
-echo "Setup complete. Next: edit .env, then run ./scripts/deploy-oss.sh"
+if [[ -n "${OSS_ACCESS_KEY_ID:-}" ]]; then
+  echo "Setup complete."
+else
+  echo "Setup complete. Next: edit .env, then run ./scripts/deploy-oss.sh"
+fi
