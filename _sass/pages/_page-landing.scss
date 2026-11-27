@@ -562,6 +562,12 @@
 .page-post {
   background-image: url("../../images/backgrounds/pic_background_down.png");
   background-position: center bottom;
+
+  @include media-breakpoint-up(lg) {
+    .wrapper > .container {
+      max-width: 960px;
+    }
+  }
 }
 
 html:has(.screenshot-dialog[open]) {
