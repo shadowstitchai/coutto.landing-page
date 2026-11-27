@@ -6,8 +6,8 @@
       "icon": "/images/grid-icons/pic_projector.svg"
     },
     {
-      "title": "Pattern Storage",
-      "summary": "Save PLT, DXF, PDF, SVG patterns. Organize by style and format for clear, easy-to-find management.",
+      "title": "Pattern Cloud Backup",
+      "summary": "Back up PLT, DXF, PDF, SVG, PNG, and JPG patterns to the cloud so they are not lost when you switch devices. Organize by style and format for clear, easy-to-find management.",
       "icon": "/images/grid-icons/pic_pattern.svg"
     },
     {

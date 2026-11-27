@@ -17,7 +17,16 @@ Publish with the repo scripts. Do not reimplement the sync.
 
 The scripts put Homebrew Ruby 3.3 on `PATH` when it is installed. Ruby 4 cannot run the pinned Jekyll 3.9. macOS system Ruby 2.6 cannot install current `github-pages`.
 
-Bucket `coutto` in `cn-shanghai`. Public site is `https://coutto.cn`. AccessKey goes in `.env` only.
+Bucket `coutto` in `cn-shanghai`. Public site is `https://coutto.cn`. AccessKey goes in `.env` only for a manual deploy.
+
+## GitHub Actions
+
+A push to `main` runs `.github/workflows/deploy-oss.yml`, which calls these scripts. Do not reimplement the sync there.
+
+Store the AccessKey as repository Actions secrets. They are encrypted and injected as environment variables. Do not put them in Actions Variables, and do not commit them.
+
+- `OSS_ACCESS_KEY_ID`
+- `OSS_ACCESS_KEY_SECRET`
 
 ## Rules
 

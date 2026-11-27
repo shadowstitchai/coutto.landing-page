@@ -12,11 +12,3 @@ main:
     name_en: "中文"
     url: "/en/"
     weight: 3
-
-footer:
-  - name: "Home"
-    url: "/"
-    weight: 1
-  - name: "Contact"
-    url: "/contact/"
-    weight: 2
