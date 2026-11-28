@@ -1,6 +1,6 @@
 # Coutto Sew / 纽扣缝纫
 
-> An AI sewing app for projector cutting, pattern size calibration, A4 pattern assembly, printing, and pattern storage. Available on iPhone and iPad; Android is not publicly released.
+> Projector sewing and pattern cloud backup. View PLT, DXF, and PDF at real size, then cut, tile, print, and back up patterns in one app.
 
 ## Product
 - [Chinese homepage](https://coutto.cn/): Features, downloads, and FAQ.

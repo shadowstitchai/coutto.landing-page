@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
   <meta name="baidu-site-verification" content="codeva-9xJJk7YtR1" />
   <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
   {% assign cn_origin = "https://coutto.cn" %}

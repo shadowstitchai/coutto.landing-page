@@ -6,30 +6,10 @@
   }
 }
 
-.page-post article {
-  text-align: center;
-
-  .content {
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    ul,
-    ol {
-      width: fit-content;
-      max-width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      text-align: left;
-    }
-
-    table,
-    blockquote {
-      text-align: left;
-    }
-  }
+.page-post article .content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-blog {
