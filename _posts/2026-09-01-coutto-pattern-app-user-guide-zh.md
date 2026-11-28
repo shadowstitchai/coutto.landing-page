@@ -7,7 +7,7 @@ permalink: "/zh/2026/09/coutto-pattern-app-user-guide/"
 translation_url: "/en/2026/09/coutto-pattern-app-user-guide/"
 translation_lang: "en"
 image: "/images/blog/coutto-pattern-app-user-guide/img-021.avif"
-description: "通过校准和投影两步，将数字纸样以正确比例投到面料上。本文从手机镜像投屏开始，介绍如何把投影网格与切割垫对齐、输入测量尺寸完成校准，以及使用颜色反转、旋转和镜像调整纸样；还说明 A4 PDF 数字拼接的步骤，并列出裁切前复核比例、调暗灯光、选择工具与压稳面料的检查要点。"
+description: "纽扣缝纫使用指南：校准投影网格，再把数字纸样按真实尺寸投影到面料上裁切。"
 order: 2
 ---
 

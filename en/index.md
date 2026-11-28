@@ -1,13 +1,14 @@
 ---
 layout: home
-title: Coutto Sew - All-in-One AI Sewing Tool
+title: Coutto Sew - Projector Sewing and Pattern Cloud Backup
 lang: en
 permalink: /en/
 translation_url: /
 translation_lang: zh-CN
-description: Cut fabric with projector, stitch, print, and store sewing patterns - all in one app.
+image: /assets/app-icon.png
+description: Projector sewing and pattern cloud backup. View PLT, DXF, and PDF at real size, then cut, tile, print, and back up patterns in one app.
 ---
 
 # Coutto Sew
 
-Cut fabric with projector, stitch, print, and store sewing patterns - all in one app.
+Projector sewing and pattern cloud backup. View PLT, DXF, and PDF at real size, then cut, tile, print, and back up patterns in one app.

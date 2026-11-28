@@ -6,6 +6,7 @@ translation_url: /en/changelog/
 translation_lang: en
 include_in_header: true
 permalink: /zh/changelog/
+description: 纽扣缝纫更新日志：查看应用各版本的变更。
 ---
 
 # 更新日志

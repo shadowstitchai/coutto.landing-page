@@ -6,6 +6,7 @@ translation_url: /zh/termsofservice/
 translation_lang: zh-CN
 include_in_header: false
 permalink: /en/termsofservice/
+description: "Terms of Service for Coutto Sew, covering app use, accounts, subscriptions, and liability."
 ---
 
 # Terms of Service

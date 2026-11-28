@@ -1,7 +1,9 @@
 baseurl: ''
 url: 'https://coutto.app'
+# CI builds in UTC. Keep post dates on the China calendar.
+timezone: Asia/Shanghai
 permalink: pretty
-title: '纽扣缝纫 - 全能 AI 缝纫工具'
+title: '纽扣缝纫 - 投影仪缝纫与纸样云备份'
 
 # github-pages defaults to jekyll-theme-primer. Its style.css overwrites ours on regen.
 theme: null

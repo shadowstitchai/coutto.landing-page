@@ -5,19 +5,26 @@
   <meta charset="utf-8">
   <meta name="baidu-site-verification" content="codeva-9xJJk7YtR1" />
   <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  {% assign cn_origin = "https://coutto.cn" %}
+  {% assign app_origin = "https://coutto.app" %}
+  {% if page.lang == "en" %}
+    {% assign canonical_origin = app_origin %}
+    {% assign en_path = page.url %}
+    {% assign zh_path = page.translation_url %}
+  {% else %}
+    {% assign canonical_origin = cn_origin %}
+    {% assign zh_path = page.url %}
+    {% assign en_path = page.translation_url %}
+  {% endif %}
+  {% assign canonical_url = canonical_origin | append: page.url %}
+  <link rel="canonical" href="{{ canonical_url }}">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  {% if page.translation_url %}<link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url | absolute_url }}" />
-  <link rel="alternate" hreflang="{{ page.translation_lang }}" href="{{ page.translation_url | absolute_url }}" />{% endif %}
+  {% if page.translation_url %}<link rel="alternate" hreflang="zh-CN" href="{{ cn_origin }}{{ zh_path }}" />
+  <link rel="alternate" hreflang="en" href="{{ app_origin }}{{ en_path }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ app_origin }}{{ en_path }}" />{% endif %}
   <link rel="describedby" type="text/markdown" href="{{ '/llms.txt' | absolute_url }}" />
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}?v={{ site.time | date: '%s' }}" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32.png' | relative_url }}?v={{ site.time | date: '%s' }}">
-  <!-- Google Fonts CDN -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-  <!-- Self host font -->
-  <!-- <link rel="preload" href="{{ '/assets/fonts/playfair-display.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin> -->
   <link href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}" rel="stylesheet">
 
   {% if page.layout == 'pricing-zh' %}<link href="{{ '/assets/css/pricing-zh.css' | relative_url }}?v={{ site.time | date: '%s' }}" rel="stylesheet">{% endif %}
@@ -25,7 +32,7 @@
   {% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
   {% if page.meta_title %}<meta property="og:title" content="{{ page.meta_title }}"/>{% else %}<meta property="og:title" content="{{ page.title }}"/>{% endif %}
   <meta property="og:type" content="website"/>
-  <meta property="og:url" content="{{ page.url | absolute_url }}"/>
+  <meta property="og:url" content="{{ canonical_url }}"/>
   {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}"/>{% endif %}
   {% if page.description %}<meta property="og:description" content="{{ page.description }}"/>{% endif %}
   {% if page.layout == 'home' %}
@@ -34,10 +41,10 @@
     "@type": "SoftwareApplication",
     "name": {{ page.title | split: ' - ' | first | jsonify }},
     "description": {{ page.description | jsonify }},
-    "url": {{ page.url | absolute_url | jsonify }},
+    "url": {{ canonical_url | jsonify }},
     "downloadUrl": "https://apps.apple.com/app/id6797682018",
     "operatingSystem": "iOS 17 or later, iPadOS 17 or later",
-    "applicationCategory": "Graphics & Design",
+    "applicationCategory": "DesignApplication",
     "publisher": {
       "@type": "Organization",
       "name": "Shadow Stitch"
@@ -48,14 +55,18 @@
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": {{ page.title | jsonify }},
-    "url": {{ page.url | absolute_url | jsonify }},
+    "url": {{ canonical_url | jsonify }},
     "datePublished": {{ page.date | date: '%Y-%m-%d' | jsonify }},
-    "inLanguage": {{ page.lang | jsonify }}
+    "inLanguage": {{ page.lang | jsonify }},
+    "author": {
+      "@type": "Organization",
+      "name": "Shadow Stitch"
+    }{% if page.description %},
+    "description": {{ page.description | jsonify }}{% endif %}{% if page.image %},
+    "image": {{ page.image | absolute_url | jsonify }}{% endif %}
   }</script>
   {% endif %}
   <meta name="twitter:card" content="summary"/>
-  {% if site.data.seo.meta_twitter_site %}<meta name="twitter:site" content="{{ site.seo.meta_twitter_site }}"/>{% endif %}
-  {% if site.data.seo.meta_twitter_creator %}<meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}"/>{% endif %}
 
 </head>
 

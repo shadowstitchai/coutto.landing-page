@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://coutto.app/sitemap.xml
