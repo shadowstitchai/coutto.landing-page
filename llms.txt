@@ -11,3 +11,7 @@
 - [English tutorials](https://coutto.app/en/tutorials/): Guides for projector sewing and using the app.
 - [Chinese user guide](https://coutto.cn/zh/2026/09/coutto-pattern-app-user-guide/): Calibration and projection steps.
 - [English user guide](https://coutto.app/en/2026/09/coutto-pattern-app-user-guide/): Calibration and projection steps.
+- [Chinese projector guide](https://coutto.cn/zh/2026/09/how-to-choose-a-sewing-projector/): Throw ratio below 1.2:1, optical resolution of at least 720p, and mounting distance.
+- [English projector guide](https://coutto.app/en/2026/09/how-to-choose-a-sewing-projector/): Throw ratio below 1.2:1, optical resolution of at least 720p, and mounting distance.
+- [Chinese complete guide](https://coutto.cn/zh/2026/09/complete-guide-to-projector-sewing/): Four steps from choosing a projector to projecting and cutting.
+- [English complete guide](https://coutto.app/en/2026/09/complete-guide-to-projector-sewing/): Four steps from choosing a projector to projecting and cutting.
