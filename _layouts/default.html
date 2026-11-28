@@ -51,6 +51,25 @@
       "name": "Shadow Stitch"
     }
   }</script>
+  {% assign home_faqs = site.data.home_faqs %}
+  {% if page.lang == "en" %}{% assign home_faqs = site.data.home_en.faqs %}{% endif %}
+  <script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for faq in home_faqs %}
+      {% capture faq_answer %}{% for sentence in faq.answers %}{% if sentence.url %}{{ sentence.text }} {{ sentence.url }}{% else %}{{ sentence }}{% endif %}{% unless forloop.last %}{{ " " }}{% endunless %}{% endfor %}{% endcapture %}
+      {
+        "@type": "Question",
+        "name": {{ faq.question | jsonify }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ faq_answer | jsonify }}
+        }
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }</script>
   {% elsif page.layout == 'post' %}
   <script type="application/ld+json">{
     "@context": "https://schema.org",

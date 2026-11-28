@@ -87,7 +87,7 @@ bodyClass: "page-home"
         <summary><span>{{ faq.question | escape }}</span></summary>
         <ul class="faq-answer">
           {% for sentence in faq.answers %}
-          <li>{{ sentence | escape }}</li>
+          <li>{% if sentence.url %}<a href="{{ sentence.url | relative_url }}">{{ sentence.text | escape }}</a>{% else %}{{ sentence | escape }}{% endif %}</li>
           {% endfor %}
         </ul>
       </details>

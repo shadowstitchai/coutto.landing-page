@@ -11,6 +11,14 @@ description: "Sewing projector guide: compare throw ratio and resolution, then p
 order: 3
 ---
 
+Start with three checks: a throw ratio below 1.2:1, an optical resolution of at least 720p, and a mounting height that can put the pattern on the cutting table.
+
+| What to check | Recommendation |
+| --- | --- |
+| Throw ratio | Below 1.2:1. Preferably below 1.0:1. Below 0.3:1 can project onto the tabletop and costs more. |
+| Optical resolution | At least 720p. 1080p is already enough. Ask for the optical resolution, not only the compatible resolution. |
+| Mounting distance | With a throw ratio below 1.0:1, a stand taller than 1.2 m can project an approximately A1 pattern onto the table. |
+
 ![Sewing projector setup]({{ "/images/blog/how-to-choose-a-sewing-projector/img-006.avif" | relative_url }})
 
 ## What Is Projector Sewing?

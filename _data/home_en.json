@@ -47,7 +47,7 @@
         "Mirror your phone to the projector, then calibrate in the app to project patterns at true size and cut along the projected lines.",
         "Recalibrate whenever you turn on or move the projector.",
         "A cutting mat and tape measure are recommended; a grid mat helps improve calibration accuracy.",
-        "See the in-app “Choose Your Sewing Projector” tutorial for more setup tips."
+        { "text": "See How to Choose a Sewing Projector for more setup tips.", "url": "/en/2026/09/how-to-choose-a-sewing-projector/" }
       ]
     },
     {
