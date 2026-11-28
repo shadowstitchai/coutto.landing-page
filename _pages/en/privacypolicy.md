@@ -6,6 +6,7 @@ translation_url: /zh/privacypolicy/
 translation_lang: zh-CN
 include_in_header: false
 permalink: /en/privacypolicy/
+description: "Privacy Policy for Coutto Sew: how we collect, use, store, and protect your personal information."
 ---
 
 **Last updated**  

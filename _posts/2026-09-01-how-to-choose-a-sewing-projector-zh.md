@@ -7,7 +7,7 @@ permalink: "/zh/2026/09/how-to-choose-a-sewing-projector/"
 translation_url: "/en/2026/09/how-to-choose-a-sewing-projector/"
 translation_lang: "en"
 image: "/images/blog/how-to-choose-a-sewing-projector/img-006.avif"
-description: "从投射比、分辨率、亮度到尺寸和安装接口，了解选择缝纫投影仪时需要关注的要点。本文说明短焦与超短焦投影仪的安装差异、如何区分光学分辨率与兼容分辨率，以及购买前应确认的螺丝孔和投屏功能，并介绍几款投影仪的参数，帮助你结合桌面空间、支架条件和有线或无线连接需求选择设备。"
+description: "缝纫投影仪怎么选：先看投射比和分辨率，短焦就能把纸样投到裁布台上。"
 order: 3
 ---
 
@@ -121,7 +121,7 @@ order: 3
 
 **HDMI**
 
-![]({{ "/images/blog/how-to-choose-a-sewing-projector/img-042.avif" | relative_url }})
+![连接投影仪的 HDMI 转 USB-C 线]({{ "/images/blog/how-to-choose-a-sewing-projector/img-042.avif" | relative_url }})
 
 ![手机无线投屏]({{ "/images/blog/how-to-choose-a-sewing-projector/img-037.avif" | relative_url }})
 

@@ -7,7 +7,7 @@ permalink: "/en/2026/09/coutto-pattern-app-user-guide/"
 translation_url: "/zh/2026/09/coutto-pattern-app-user-guide/"
 translation_lang: "zh-CN"
 image: "/images/blog/coutto-pattern-app-user-guide/img-021.avif"
-description: "Project digital patterns onto fabric at the correct scale with calibration and projection. Start by mirroring your phone, align the projected grid with your cutting mat, and enter the measured dimensions. Explore color inversion, rotation and mirroring, then follow the steps for digitally tiling A4 PDF patterns. Before cutting, review the scale, lighting, cutting tools and fabric weights to keep your setup ready for use."
+description: "Coutto Sew guide: calibrate the projection grid, then project digital patterns onto fabric at real size before you cut."
 order: 2
 ---
 

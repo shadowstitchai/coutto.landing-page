@@ -7,7 +7,7 @@ permalink: "/en/2026/09/complete-guide-to-projector-sewing/"
 translation_url: "/zh/2026/09/complete-guide-to-projector-sewing/"
 translation_lang: "zh-CN"
 image: "/images/blog/complete-guide-to-projector-sewing/img-002.avif"
-description: "Get started with projector sewing in four steps: choose a projector, set it up, mirror your phone, then calibrate and project your patterns. Learn about throw ratio and resolution, a flat cutting surface, focus and connection methods, then explore calibration, color inversion and pattern controls. Practical tips cover cutting tools, fabric weights and pattern placement, with an equipment checklist to help you prepare your workspace."
+description: "Projector sewing guide: choose a projector, mirror your phone, calibrate, and project patterns onto fabric at real size."
 order: 1
 ---
 

@@ -7,7 +7,7 @@ permalink: "/en/2026/09/hy450c-vesa-projector-stand/"
 translation_url: "/zh/2026/09/hy450c-vesa-projector-stand/"
 translation_lang: "zh-CN"
 image: "/images/blog/hy450c-vesa-projector-stand/img-014.avif"
-description: "Build a no-drill HY450C sewing projector setup with a 3D-printed VESA adapter, a floor TV stand and everyday accessories. Learn how the adapter connects the projector’s non-standard mounting holes to a VESA stand, check the L99C stand specifications, and plan a clamp-on tray, power strip and cable ties. The guide also explains how to obtain the open-source adapter files for 3D printing."
+description: "Sewing projector stand: mount an HY450C with a 3D-printed VESA adapter and a floor stand, without drilling."
 order: 4
 ---
 

@@ -7,7 +7,7 @@ permalink: "/en/2026/09/how-to-choose-a-sewing-projector/"
 translation_url: "/zh/2026/09/how-to-choose-a-sewing-projector/"
 translation_lang: "zh-CN"
 image: "/images/blog/how-to-choose-a-sewing-projector/img-006.avif"
-description: "Learn what to look for in a sewing projector, from throw ratio, resolution and brightness to size and mounting options. Explore the differences between short-throw and ultra-short-throw setups, distinguish native resolution from supported input resolution, and check screw mounts and casting features before buying. The guide also introduces several projector models to help you compare equipment for your workspace and connection needs."
+description: "Sewing projector guide: compare throw ratio and resolution, then pick a short-throw model that can project patterns onto a cutting table."
 order: 3
 ---
 

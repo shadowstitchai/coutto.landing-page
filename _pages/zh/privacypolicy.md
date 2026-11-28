@@ -6,6 +6,7 @@ translation_url: /en/privacypolicy/
 translation_lang: en
 include_in_header: false
 permalink: /zh/privacypolicy/
+description: 纽扣缝纫隐私政策：说明我们如何收集、使用、存储和保护你的个人信息。
 ---
 
 **最后更新**  

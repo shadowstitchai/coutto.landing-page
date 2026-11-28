@@ -6,6 +6,7 @@ translation_url: /zh/changelog/
 translation_lang: zh-CN
 include_in_header: true
 permalink: /en/changelog/
+description: "Coutto Sew changelog: see what changed in each app version."
 ---
 
 # Changelog

@@ -6,6 +6,7 @@ translation_url: /en/termsofservice/
 translation_lang: en
 include_in_header: false
 permalink: /zh/termsofservice/
+description: 纽扣缝纫服务条款：说明应用的使用条件、账户、订阅和责任范围。
 ---
 
 # 服务条款

@@ -11,7 +11,7 @@ bodyClass: "page-post"
         <time datetime="{{ page.date | date: '%Y-%m' }}">{% if page.lang == 'zh-CN' %}{{ page.date | date: '%Y 年 %-m 月' }}{% else %}{{ page.date | date: '%B %Y' }}{% endif %}</time>
       </p>
     </header>
-    <div class="content">{{ content }}</div>
+    <div class="content">{{ content | replace: '<img ', '<img loading="lazy" ' }}</div>
     <p class="mt-4"><a href="{% if page.lang == 'en' %}{{ '/en/tutorials/' | relative_url }}{% else %}{{ '/tutorials/' | relative_url }}{% endif %}">{% if page.lang == 'zh-CN' %}返回博客{% else %}Back to Tutorials{% endif %}</a></p>
   </article>
 </div>
